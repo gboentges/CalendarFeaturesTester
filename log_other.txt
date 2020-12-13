@@ -1,0 +1,303 @@
+--------- beginning of main
+12-11 19:06:13.971  6801  6801 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 19:06:13.972  6801  6801 D AndroidRuntime: CheckJNI is ON
+12-11 19:06:14.017  6801  6801 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:06:14.032  6801  6801 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-11 19:06:14.056  6801  6801 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-11 19:06:14.056  6801  6801 E android.os.Debug: failed to load memtrack module: -2
+12-11 19:06:14.057  6801  6801 I Radio-JNI: register_android_hardware_Radio DONE
+12-11 19:06:14.067  6801  6801 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of system
+12-11 19:06:14.121  1653  1666 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{ba3d400 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{7597439 6801 (unknown name)/2000/u-1 remote:4744d32}: process crashing
+12-11 19:06:14.572  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:06:14.622  2640  6812 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:14.622  2640  6812 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:14.622  2640  6812 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:14.671  2640  6812 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:14.671  2640  6812 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:14.671  2640  6812 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:14.870  6321  6334 I Finsky  : [279] com.google.android.finsky.contentfilterui.o.a(7): Received content filters request from sharedUserId=com.google.uid.shared:10013
+12-11 19:06:14.938  2640  6779 I UdcContextInitChimeraSe: Registering with contextmanager
+12-11 19:06:15.051  2640  6818 W asdu    : No buffers returned returned by ContextManager.
+12-11 19:06:15.085  2064  6499 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:06:15.085  2064  6499 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:06:15.123  2064  6815 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:15.123  2064  6815 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:15.123  2064  6815 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:15.185  2064  6815 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:15.186  2064  6815 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:15.186  2064  6815 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:15.280  2064  6085 I InstantApps: DomainFilterImpl: Domain filter response size: 221
+12-11 19:06:15.290  2064  6085 I InstantApps: DomainFilterImpl: Account = ctj784@gmail.com is ineligible from using Instant apps
+12-11 19:06:15.751  6801  6801 D MonkeyStub: translateCommand: wake
+12-11 19:06:15.760  6801  6801 D MonkeyStub: translateCommand: touch down 530 1460
+12-11 19:06:15.763  6801  6801 D MonkeyStub: translateCommand: touch move 530 1460
+12-11 19:06:15.777  6801  6801 D MonkeyStub: translateCommand: touch move 532 1433
+12-11 19:06:15.792  6801  6801 D MonkeyStub: translateCommand: touch move 533 1407
+12-11 19:06:15.822  6801  6801 D MonkeyStub: translateCommand: touch move 535 1380
+12-11 19:06:15.837  6801  6801 D MonkeyStub: translateCommand: touch move 536 1354
+12-11 19:06:15.852  6801  6801 D MonkeyStub: translateCommand: touch move 538 1327
+12-11 19:06:15.870  6801  6801 D MonkeyStub: translateCommand: touch move 539 1301
+12-11 19:06:15.889  6801  6801 D MonkeyStub: translateCommand: touch move 541 1274
+12-11 19:06:15.904  6801  6801 D MonkeyStub: translateCommand: touch move 543 1248
+12-11 19:06:15.920  6801  6801 D MonkeyStub: translateCommand: touch move 544 1221
+12-11 19:06:15.941  6801  6801 D MonkeyStub: translateCommand: touch move 546 1194
+12-11 19:06:15.959  6801  6801 D MonkeyStub: translateCommand: touch move 547 1168
+12-11 19:06:15.976  6801  6801 D MonkeyStub: translateCommand: touch move 549 1141
+12-11 19:06:15.991  6801  6801 D MonkeyStub: translateCommand: touch move 551 1115
+12-11 19:06:16.008  6801  6801 D MonkeyStub: translateCommand: touch move 552 1088
+12-11 19:06:16.028  6801  6801 D MonkeyStub: translateCommand: touch move 554 1062
+12-11 19:06:16.043  6801  6801 D MonkeyStub: translateCommand: touch move 555 1035
+12-11 19:06:16.061  6801  6801 D MonkeyStub: translateCommand: touch move 557 1008
+12-11 19:06:16.078  6801  6801 D MonkeyStub: translateCommand: touch move 558 982
+12-11 19:06:16.092  6801  6801 D MonkeyStub: translateCommand: touch move 560 955
+12-11 19:06:16.113  6801  6801 D MonkeyStub: translateCommand: touch move 562 929
+12-11 19:06:16.126  6801  6801 D MonkeyStub: translateCommand: touch move 563 902
+12-11 19:06:16.141  6801  6801 D MonkeyStub: translateCommand: touch move 565 876
+12-11 19:06:16.156  6801  6801 D MonkeyStub: translateCommand: touch move 566 849
+12-11 19:06:16.170  6801  6801 D MonkeyStub: translateCommand: touch move 568 823
+12-11 19:06:16.184  6801  6801 D MonkeyStub: translateCommand: touch move 570 796
+12-11 19:06:16.200  6801  6801 D MonkeyStub: translateCommand: touch move 571 769
+12-11 19:06:16.214  6801  6801 D MonkeyStub: translateCommand: touch move 573 743
+12-11 19:06:16.232  6801  6801 D MonkeyStub: translateCommand: touch move 574 716
+12-11 19:06:16.249  6801  6801 D MonkeyStub: translateCommand: touch move 576 690
+12-11 19:06:16.267  6801  6801 D MonkeyStub: translateCommand: touch move 577 663
+12-11 19:06:16.285  6801  6801 D MonkeyStub: translateCommand: touch move 579 637
+12-11 19:06:16.308  6801  6801 D MonkeyStub: translateCommand: touch move 581 610
+12-11 19:06:16.330  6801  6801 D MonkeyStub: translateCommand: touch move 582 584
+12-11 19:06:16.360  6801  6801 D MonkeyStub: translateCommand: touch move 584 557
+12-11 19:06:16.376  6801  6801 D MonkeyStub: translateCommand: touch move 585 530
+12-11 19:06:16.390  6801  6801 D MonkeyStub: translateCommand: touch move 587 504
+12-11 19:06:16.403  6801  6801 D MonkeyStub: translateCommand: touch move 588 477
+12-11 19:06:16.418  6801  6801 D MonkeyStub: translateCommand: touch move 590 451
+12-11 19:06:16.431  6801  6801 D MonkeyStub: translateCommand: touch move 592 424
+12-11 19:06:16.448  6801  6801 D MonkeyStub: translateCommand: touch move 593 398
+12-11 19:06:16.463  6801  6801 D MonkeyStub: translateCommand: touch move 595 371
+12-11 19:06:16.481  6801  6801 D MonkeyStub: translateCommand: touch move 596 344
+12-11 19:06:16.493  6801  6801 D MonkeyStub: translateCommand: touch move 598 318
+12-11 19:06:16.526  6801  6801 D MonkeyStub: translateCommand: touch move 600 291
+12-11 19:06:16.560  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(8): onJobSchedulerWakeup with jobId 9002
+12-11 19:06:16.562  6801  6801 D MonkeyStub: translateCommand: touch move 601 265
+12-11 19:06:16.586  6801  6801 D MonkeyStub: translateCommand: touch move 603 238
+12-11 19:06:16.591  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 43199988 (absolute: 44575794)
+12-11 19:06:16.599  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ad.a(41): Scheduling fallback in 64799993 (absolute: 66175807)
+12-11 19:06:16.611  6801  6801 D MonkeyStub: translateCommand: touch move 604 212
+12-11 19:06:16.626  6801  6801 D MonkeyStub: translateCommand: touch move 606 185
+12-11 19:06:16.630  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.al.handleMessage(16): DeviceState: DeviceState{currentTime=1544576776617, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true}
+12-11 19:06:16.648  6801  6801 D MonkeyStub: translateCommand: touch move 607 159
+12-11 19:06:16.658  6321  6827 I Finsky  : [352] com.google.android.finsky.scheduler.bp.b(88): Jobs in database: 1-1337 19-9999 24-77777777 26-1414141414 
+12-11 19:06:16.662  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ag.a(59): Running job: 19-9999
+12-11 19:06:16.666  6801  6801 D MonkeyStub: translateCommand: touch move 609 132
+12-11 19:06:16.669  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ag.a(105): RunningQueue size: 1, PendingQueue size: 0
+12-11 19:06:16.672  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ag.a(116): Running queue: 19-9999 
+12-11 19:06:16.692  6801  6801 D MonkeyStub: translateCommand: touch up 609 132
+12-11 19:06:16.741  6321  6371 I Finsky  : [314] com.google.android.finsky.scheduler.bm.b(8): jobFinished: 19-9999. TimeElapsed: 79ms
+12-11 19:06:16.756  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ag.a(139): Job 19-9999 finished
+12-11 19:06:16.757  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.ag.a(105): RunningQueue size: 0, PendingQueue size: 0
+12-11 19:06:16.758  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.al.handleMessage(42): Executor finished
+12-11 19:06:16.817  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.bp.b(88): Jobs in database: 1-1337 24-77777777 26-1414141414 
+12-11 19:06:16.828  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 77837596ms, C: false, I: true, N: 0
+12-11 19:06:16.841  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 1-1337,  -> L: 39724241ms, D: 82924241ms, C: false, I: false, N: 1
+12-11 19:06:16.846  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.k.a(69): ConstraintMapping: 26-1414141414,  -> L: 36059401ms, D: 36959401ms, C: false, I: false, N: 0
+12-11 19:06:16.848  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(109): Cancelling existing job with id: 9001
+12-11 19:06:16.861  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(109): Cancelling existing job with id: 9003
+12-11 19:06:16.867  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(66): Throttling wakeup for job 9000 (expected to run in 0 ms) due to recent wakeup
+12-11 19:06:16.867  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(48): Scheduling job Id: 9000, L: 30000, D: 77837596, C: false, I: true, N: 0
+12-11 19:06:16.868  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(48): Scheduling job Id: 9004, L: 39724241, D: 82924241, C: false, I: false, N: 1
+12-11 19:06:16.873  6321  6321 I Finsky  : [1] com.google.android.finsky.scheduler.JobSchedulerEngine.a(48): Scheduling job Id: 9005, L: 36059401, D: 36959401, C: false, I: false, N: 0
+12-11 19:06:19.698  6801  6801 D MonkeyStub: translateCommand: tap 886 122
+12-11 19:06:19.737  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 27652563 , only wrote 27652320
+12-11 19:06:22.703  6801  6801 D MonkeyStub: translateCommand: tap 357 119
+12-11 19:06:22.925  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:06:22.925  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:06:22.931  1653  1666 I ActivityManager: Killing 6382:android.process.media/u0a11 (adj 906): empty #17
+12-11 19:06:22.950  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 27958664 , only wrote 27806400
+12-11 19:06:22.978  2640  6833 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:06:22.986  1653  1663 D ActivityManager: cleanUpApplicationRecord -- 6382
+12-11 19:06:24.031  2640  6779 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:06:24.060  2640  6779 I IcingInternalCorpora: EventIndexer: 49 added, 0 removed, 0 changed, 0 unchanged, 0 errors.
+12-11 19:06:24.220  2640  2640 I IcingInternalCorpora: EventIndexer: finished after 189 ms.
+12-11 19:06:24.712  6801  6801 D MonkeyStub: translateCommand: tap 357 119
+12-11 19:06:24.718  6003  6003 W AllInOneCalendarAct: Ignoring drag on other view 2131624111
+12-11 19:06:25.095  2640  6779 I Icing   : Indexing com.google.android.gms-internal.3p:Event from com.google.android.gms
+12-11 19:06:25.268  2640  6779 I Icing   : Indexing com.google.android.gms-internal.3p:MusicRecording from com.google.android.gms
+12-11 19:06:25.319  2640  6779 I Icing   : Indexing done com.google.android.gms-internal.3p:Event
+12-11 19:06:25.327  2640  6779 I Icing   : Indexing done com.google.android.gms-internal.3p:MusicRecording
+12-11 19:06:25.329  2640  6779 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+12-11 19:06:25.376  2640  6779 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+12-11 19:06:25.877  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_OPT_IN_STATUSES.
+12-11 19:06:25.921  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:06:25.950  2143  4853 I FetchOptInStatusTask: Audio History Disabled: Deleting model
+12-11 19:06:25.991  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task NOW_UPDATE_GCM_REGISTRATION.
+12-11 19:06:25.996  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 1 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 2 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 4 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 5 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 6 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 7 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 8 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 9 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 11 is Eligible = true
+12-11 19:06:26.003  2143  5121 I OptInChecker: Sidekick thinks 12 is Eligible = true
+12-11 19:06:26.003  2143  5121 W OptInChecker: Missing cached UDC setting for NOW_CARDS
+12-11 19:06:26.003  2143  5121 I OptInChecker: Falling back to non-UDC sources
+12-11 19:06:26.003  2143  5121 I OptInChecker: Setting = NOW_CARDS, optedInt = false
+12-11 19:06:26.014  2143  4853 I OptInChecker: Sidekick thinks 1 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 2 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 4 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 5 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 6 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 7 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 8 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 9 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 11 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: Sidekick thinks 12 is Eligible = true
+12-11 19:06:26.015  2143  4853 I OptInChecker: UDC thinks - Setting = WEB_AND_APP_HISTORY, Eligibility = ELIGIBLE
+12-11 19:06:26.015  2143  4853 I OptInChecker: Using UDC cache for Setting: WEB_AND_APP_HISTORY
+12-11 19:06:26.015  2143  4853 I OptInChecker: UDC Setting = WEB_AND_APP_HISTORY, optedIn = true
+12-11 19:06:26.336  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:06:26.338  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:06:26.806  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:06:26.858  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:27.011  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:27.072  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:06:27.216  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:27.533  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:06:27.833  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:28.653  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:28.654  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:28.654  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:29.718  6801  6801 D MonkeyStub: translateCommand: tap 542 528
+12-11 19:06:32.723  6801  6801 D MonkeyStub: translateCommand: tap 886 122
+12-11 19:06:32.770  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 27806691 , only wrote 27806400
+12-11 19:06:35.996  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 28114186 , only wrote 27961200
+12-11 19:06:37.372  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:06:37.372  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:06:37.491  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:06:37.736  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:06:37.765  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 27961571 , only wrote 27961200
+12-11 19:06:38.250  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:38.355  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:06:38.895  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:06:39.739  6801  6801 D MonkeyStub: translateCommand: tap 238 663
+12-11 19:06:40.017  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:41.564  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:06:42.956  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 28457426 , only wrote 28210320
+12-11 19:06:44.752  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:06:44.786  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 28210818 , only wrote 28210320
+12-11 19:06:46.761  6801  6801 D MonkeyStub: translateCommand: tap 260 1517
+12-11 19:06:46.787  1653  1663 I ActivityManager: Killing 5965:com.google.android.apps.photos/u0a66 (adj 906): empty #17
+12-11 19:06:46.843  1653  1679 D ActivityManager: cleanUpApplicationRecord -- 5965
+12-11 19:06:47.058  2640  6848 I MDM     : [757] aenw.b: sending sitrep: [1, 11, [Y19EK5I79CYJjVAa6SGuv3XXv9M], 14799022, [DKTK7c6uzsTMnDG-aXr70nqNdEU], true, ABFEt1XG_6ukY0y1-rgw5tp-H1eOhBrEr-sw9Pb8BIYc4JjKmC0pd5ZgGL5yZJSaiN9aRECeM6YnWuvpslStT0G6Dg8sCbrdXGexAakCD2cDlEZDGTRdR0GVjwapz4GqlQyKhCGXZEpeehTppdFdAYWxVOOxKNZmV7GasbhOAM49kAYGwXg34MoUi9aT2fETKHmuggCvknCfRR7EdJp5mMsMevzJqaW0BDH5_iVlF1L7A3CQuzLGs7filpZb2lVMtFC1PliJkFDcekRS96mLYqH08-aCvHXmwMc1EvA2XTGIry7M2lhvEUgnwkZ9QufD_rElcbcLBMYTzYr8K7bQvQbQcLSb4FbDEBfY2sym5WpAnj-GIBbkn5w, 1, false]
+12-11 19:06:47.097  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:06:47.774  1653  1661 I art     : Background partial concurrent mark sweep GC freed 47831(2MB) AllocSpace objects, 20(692KB) LOS objects, 22% free, 14MB/18MB, paused 3.802ms total 105.819ms
+12-11 19:06:47.823  2640  3002 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:47.823  2640  3002 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:47.824  2640  3002 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:47.832  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:06:47.832  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:06:47.852  2640  6854 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:06:47.869  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:06:47.881  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:06:47.918  2640  3002 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:47.919  2640  3002 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:47.919  2640  3002 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:48.013  2640  6848 I MDM     : [757] aenw.b: Sitrep successful
+12-11 19:06:48.065  2064  6815 E btsi    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+12-11 19:06:48.065  2064  6815 E btsi    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+12-11 19:06:48.072  2064  6815 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:06:48.099  1360  1386 D WVCdm   : Instantiating CDM.
+12-11 19:06:48.100  1360  1360 I WVCdm   : CdmEngine::OpenSession
+12-11 19:06:48.101  1360  1360 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:06:48.102  1360  1360 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:06:48.109  1360  1360 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:06:48.109  1360  4704 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:06:48.109  1360  4704 D WVCdm   : PrepareKeyRequest: nonce=450003439
+12-11 19:06:48.162  1360  3128 I WVCdm   : CdmEngine::CloseSession
+12-11 19:06:48.248  2064  6815 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-11 19:06:48.248  2064  6815 W GLSUser : java.io.IOException: Invalid device key response.
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):72)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):27)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxs.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910))
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxq.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):8)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at hxq.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):25)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at qsl.c(:com.google.android.gms@14799022@14.7.99 (040700-223214910):1)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at qtc.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):68)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at gsr.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):7)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at gsu.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):25)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at com.google.android.gms.audit.upload.AuditGcmTaskChimeraService.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at yrm.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):5)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at rab.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):21)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at rgd.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910))
+12-11 19:06:48.248  2064  6815 W GLSUser : 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:06:48.249  2064  6815 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:06:48.300  2064  6085 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:48.300  2064  6085 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:48.300  2064  6085 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:48.350  2064  6085 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:06:48.350  2064  6085 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:48.350  2064  6085 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:06:49.764  6801  6801 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:06:49.992  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 28707985 , only wrote 28460160
+12-11 19:06:54.104  2640  6881 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:06:54.107  2640  6881 I IcingInternalCorpora: EventIndexer: 0 added, 0 removed, 0 changed, 49 unchanged, 0 errors.
+12-11 19:06:54.107  2640  6881 I IcingInternalCorpora: EventIndexer: finished after 3 ms.
+12-11 19:06:54.775  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:06:54.815  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 28460357 , only wrote 28460160
+12-11 19:06:56.783  6801  6801 D MonkeyStub: translateCommand: tap 260 1517
+12-11 19:06:57.837  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:06:57.837  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:06:57.881  2640  6885 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:06:57.883  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:06:57.905  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:06:59.787  6801  6801 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:07:00.006  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 28956336 , only wrote 28709280
+12-11 19:07:04.798  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:07:04.828  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 28709435 , only wrote 28709280
+12-11 19:07:06.803  6801  6801 D MonkeyStub: translateCommand: tap 287 1640
+12-11 19:07:07.861  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:07:07.861  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:07:07.892  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:07:07.901  2640  6893 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:07:09.807  6801  6801 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:07:10.019  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 29205462 , only wrote 28958400
+12-11 19:07:14.818  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:07:14.842  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 28958495 , only wrote 28958400
+12-11 19:07:16.695  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:07:16.822  6801  6801 D MonkeyStub: translateCommand: tap 287 1640
+12-11 19:07:17.385  6003  6897 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:07:17.523  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:07:17.850  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:07:17.851  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:07:17.875  2640  6900 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:07:17.881  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:07:17.891  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:07:18.228  6003  6897 I CalendarSyncAdapter: Found no pending settings
+12-11 19:07:18.943  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:07:18.968  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:07:19.824  6801  6801 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:07:20.049  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 29456053 , only wrote 29208240
+12-11 19:07:24.145  2640  6895 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:07:24.149  2640  6895 I IcingInternalCorpora: EventIndexer: 0 added, 0 removed, 0 changed, 49 unchanged, 0 errors.
+12-11 19:07:24.149  2640  6895 I IcingInternalCorpora: EventIndexer: finished after 5 ms.
+12-11 19:07:24.828  6801  6801 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:07:24.851  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 29208351 , only wrote 29208240
+12-11 19:07:26.379  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:07:26.379  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:07:26.831  6801  6801 D MonkeyStub: translateCommand: tap 238 132
+12-11 19:07:26.845  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:07:26.897  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:27.060  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:27.121  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:07:27.256  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:27.568  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:07:27.840  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:28.693  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:28.693  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:28.693  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:07:30.042  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 29704533 , only wrote 29457360

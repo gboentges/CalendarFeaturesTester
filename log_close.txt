@@ -1,0 +1,1632 @@
+--------- beginning of main
+12-11 19:18:57.514  7405  7405 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 19:18:57.517  7405  7405 D AndroidRuntime: CheckJNI is ON
+12-11 19:18:57.559  7405  7405 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:18:57.563  7405  7405 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-11 19:18:57.587  7405  7405 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-11 19:18:57.587  7405  7405 E android.os.Debug: failed to load memtrack module: -2
+12-11 19:18:57.589  7405  7405 I Radio-JNI: register_android_hardware_Radio DONE
+12-11 19:18:57.599  7405  7405 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of system
+12-11 19:18:57.659  1653  1666 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{b2891ae u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{73d3b4f 7405 (unknown name)/2000/u-1 remote:bc75bb0}: process crashing
+12-11 19:18:59.250  7405  7405 D MonkeyStub: translateCommand: wake
+12-11 19:18:59.256  7405  7405 D MonkeyStub: translateCommand: press KEYCODE_HOME
+12-11 19:18:59.265  1653  1687 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+12-11 19:18:59.294  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:18:59.340  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:59.447  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:18:59.456  2143  2310 W SessionLifecycleManager: Handover failed. Creating new session controller.
+12-11 19:18:59.492  2143  2310 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+12-11 19:18:59.500  2143  5094 I OptInChecker: Sidekick thinks 1 is Eligible = true
+12-11 19:18:59.500  2143  5094 I OptInChecker: Sidekick thinks 2 is Eligible = true
+12-11 19:18:59.500  2143  5094 I OptInChecker: Sidekick thinks 4 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 5 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 6 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 7 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 8 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 9 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 11 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: Sidekick thinks 12 is Eligible = true
+12-11 19:18:59.501  2143  5094 I OptInChecker: UDC thinks - Setting = LOCATION_HISTORY_AND_REPORTING, Eligibility = ELIGIBLE
+12-11 19:18:59.501  2143  5094 I OptInChecker: Using UDC cache for Setting: LOCATION_HISTORY_AND_REPORTING
+12-11 19:18:59.502  2143  5094 I OptInChecker: UDC Setting = LOCATION_HISTORY_AND_REPORTING, optedIn = false
+12-11 19:18:59.503  2143  4853 W LocationOracle: No location history returned by ContextManager
+12-11 19:18:59.585  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:18:59.590  2143  2310 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+12-11 19:18:59.596  2143  2310 I AudioController: Created new AudioSource
+12-11 19:18:59.611  2143  2324 I MicroDataManager: Created a new hotword model for:
+12-11 19:18:59.611  2143  2324 I MicroDataManager:  LOC: https://www.gstatic.com/android-search/hotword/x_google/6132a9a606e11d4fad2fe60739162a89/hotword.data SR: 16000 CC: 1
+12-11 19:18:59.613  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:18:59.618  2143  5121 I MicroRecognitionRunner: Starting detection.
+12-11 19:18:59.619  2143  2324 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+12-11 19:18:59.621  1354  7419 I AudioFlinger: AudioFlinger's thread 0xaa583500 ready to run
+12-11 19:18:59.644  2143  2324 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+12-11 19:18:59.648  2143  2155 I art     : Background sticky concurrent mark sweep GC freed 17351(911KB) AllocSpace objects, 0(0B) LOS objects, 6% free, 13MB/14MB, paused 5.530ms total 28.239ms
+12-11 19:18:59.670  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:00.041  1653  1673 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+12-11 19:19:00.122  1653  3798 I GnssLocationProvider: WakeLock acquired by sendMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@abb56d3)
+12-11 19:19:00.150  1653  1665 I GnssLocationProvider: WakeLock released by handleMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@abb56d3)
+12-11 19:19:00.183  2064  6823 W ctxmgr  : [AclManager]No 3 for (accnt=account#-517948760#, com.google.android.gms(10013):UserVelocityProducer, vrsn=14799022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 2064). Was: 3 for 1, account#-517948760#
+12-11 19:19:00.194  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:00.415  2064  6823 E ctxmgr  : [ProducerStatusImpl]updateStateForNewContextData: inactive, contextName=7
+12-11 19:19:00.491  2064  2064 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+12-11 19:19:00.504  2064  7422 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+12-11 19:19:00.513  2064  2064 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+12-11 19:19:00.566  2064  6823 E ctxmgr  : [ProducerStatusImpl]updateStateForNewContextData: inactive, contextName=1
+12-11 19:19:00.624  2104  2157 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-11 19:19:00.666  2064  7422 I Places  : ?: PlacesBleScanner start() with priority 2
+12-11 19:19:00.667  2064  7422 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+12-11 19:19:00.686  2064  2064 E BeaconBle: Missing BluetoothAdapter
+12-11 19:19:00.689  2064  2064 I BeaconBle: BLE 'KK+' software access layer enabled
+12-11 19:19:00.693  2064  7422 I Places  : Converted 0 out of 1 WiFi scans
+12-11 19:19:00.713  2064  7422 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+12-11 19:19:00.718  2064  2064 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+12-11 19:19:00.721  2064  2064 I BeaconBle: Scan : No clients left, canceling alarm.
+12-11 19:19:00.722  2064  2064 E BeaconBle: Scan couldn't start for Places
+12-11 19:19:00.724  2064  2064 W Places  : BLE failure while scanning - code 5
+12-11 19:19:01.010  2064  4862 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+12-11 19:19:01.262  7405  7405 D MonkeyStub: translateCommand: tap 852 1859
+12-11 19:19:01.278  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 50811250 , only wrote 50811120
+12-11 19:19:01.284  1653  2529 I ActivityManager: START u0 {flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10028 on display 0
+12-11 19:19:01.308  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:01.316  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.341  1653  1873 I GnssLocationProvider: WakeLock acquired by sendMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8b49234)
+12-11 19:19:01.352  1653  1665 I GnssLocationProvider: WakeLock released by handleMessage(3, 0, com.android.server.location.GnssLocationProvider$GpsRequest@8b49234)
+12-11 19:19:01.441  2143  2310 I MicroDetector: Keeping mic open: false
+12-11 19:19:01.441  2143  6076 I DeviceStateChecker: DeviceStateChecker cancelled
+12-11 19:19:01.454  2143  4870 I AudioController: internalShutdown
+12-11 19:19:01.456  2143  2278 I MicroRecognitionRunner: Stopping hotword detection.
+12-11 19:19:01.478  2143  4870 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:01.515  2143  5121 I MicroRecognitionRunner: Detection finished
+12-11 19:19:01.606  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.615  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.702  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.800  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.814  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:01.853  2143  2324 I PBSessionCacheImpl: Deleted sessionId[771359998684] from persistence.
+12-11 19:19:01.878  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:01.887  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:01.973  1311  1311 W SurfaceFlinger: couldn't log to binary event log: overflow.
+12-11 19:19:03.272  7405  7405 D MonkeyStub: translateCommand: tap 928 147
+12-11 19:19:03.521  1653  3966 I ActivityManager: Killing 6003:com.google.android.calendar/u0a34 (adj 900): remove task
+12-11 19:19:03.547  1653  2530 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 10028 on display 0
+12-11 19:19:03.570  1653  1876 D GraphicsStats: Buffer count: 6
+12-11 19:19:03.570  1653  2295 I WindowManager: WIN DEATH: Window{a993bdd u0 com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity}
+12-11 19:19:03.597  1653  1664 D ActivityManager: cleanUpApplicationRecord -- 6003
+12-11 19:19:03.607  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:03.627  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:03.705  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:03.720  1733  1900 D OpenGLRenderer: endAllActiveAnimators on 0x8d270600 (RippleDrawable) with handle 0x8c7fc740
+12-11 19:19:03.732  2143  2310 W SessionLifecycleManager: Handover failed. Creating new session controller.
+12-11 19:19:03.733  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:03.801  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:03.931  2143  2310 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+12-11 19:19:03.933  2143  2310 I AudioController: Created new AudioSource
+12-11 19:19:03.942  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:03.967  2143  6076 I MicroRecognitionRunner: Starting detection.
+12-11 19:19:03.968  2143  2324 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:03.980  1354  7431 I AudioFlinger: AudioFlinger's thread 0xaa5835c0 ready to run
+12-11 19:19:03.996  2143  2324 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:04.008  2143  2155 I art     : Background sticky concurrent mark sweep GC freed 7230(317KB) AllocSpace objects, 0(0B) LOS objects, 0% free, 14MB/14MB, paused 6.707ms total 50.141ms
+12-11 19:19:04.024  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:04.263  2104  2157 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-11 19:19:04.274  7405  7405 D MonkeyStub: translateCommand: press KEYCODE_HOME
+12-11 19:19:04.282  1653  1687 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+12-11 19:19:04.291  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:06.485  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 51309062 , only wrote 51060960
+12-11 19:19:06.540  7434  7434 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 19:19:06.542  7434  7434 D AndroidRuntime: CheckJNI is ON
+12-11 19:19:06.582  7434  7434 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:06.587  7434  7434 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-11 19:19:06.610  7434  7434 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-11 19:19:06.610  7434  7434 E android.os.Debug: failed to load memtrack module: -2
+12-11 19:19:06.611  7434  7434 I Radio-JNI: register_android_hardware_Radio DONE
+12-11 19:19:06.622  7434  7434 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-11 19:19:06.631  1653  3966 I ActivityManager: START u0 {flg=0x10000000 cmp=com.android.settings/.Settings} from uid 2000 on display 0
+12-11 19:19:06.647  7434  7434 D AndroidRuntime: Shutting down VM
+12-11 19:19:06.658  7443  7443 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:06.666  1653  1891 I ActivityManager: Start proc 7443:com.android.settings/1000 for activity com.android.settings/.Settings
+12-11 19:19:06.688  1311  1493 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8294400
+12-11 19:19:06.700  7443  7443 W System  : ClassLoader referenced unknown path: /system/priv-app/Settings/lib/x86
+12-11 19:19:06.760  2143  2310 I MicroDetector: Keeping mic open: false
+12-11 19:19:06.761  2143  5121 I DeviceStateChecker: DeviceStateChecker cancelled
+12-11 19:19:06.788  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:06.802  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:06.820  2143  2278 I AudioController: internalShutdown
+12-11 19:19:06.821  2143  4870 I MicroRecognitionRunner: Stopping hotword detection.
+12-11 19:19:06.860  2143  2278 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:06.873  2143  6076 I MicroRecognitionRunner: Detection finished
+12-11 19:19:06.890  7443  7457 W System  : ClassLoader referenced unknown path: 
+12-11 19:19:06.890  7443  7457 W System  : ClassLoader referenced unknown path: /system/priv-app/CellBroadcastReceiver/lib/x86
+12-11 19:19:06.893  7443  7457 D ApplicationLoaders: ignored Vulkan layer search path /system/priv-app/CellBroadcastReceiver/lib/x86:/system/lib:/vendor/lib for namespace 0xad457090
+12-11 19:19:06.902  2143  2278 I PBSessionCacheImpl: Deleted sessionId[771359998685] from persistence.
+12-11 19:19:06.932  1653  1891 I ActivityManager: Start proc 7458:com.android.cellbroadcastreceiver/u0a4 for content provider com.android.cellbroadcastreceiver/.CellBroadcastSearchIndexableProvider
+12-11 19:19:06.947  7458  7458 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:06.952  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:06.984  1311  1897 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+12-11 19:19:06.984  7458  7458 W System  : ClassLoader referenced unknown path: /system/priv-app/CellBroadcastReceiver/lib/x86
+12-11 19:19:06.992  7443  7443 D         : HostConnection::get() New Host Connection established 0x9d953600, tid 7443
+12-11 19:19:07.097  7443  7457 V NFC     : this device does not have NFC support
+12-11 19:19:07.106  7443  7471 D         : HostConnection::get() New Host Connection established 0x9d953900, tid 7471
+12-11 19:19:07.109  7443  7471 I OpenGLRenderer: Initialized EGL, version 1.4
+12-11 19:19:07.109  7443  7471 D OpenGLRenderer: Swap behavior 1
+12-11 19:19:07.109  7443  7471 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-11 19:19:07.109  7443  7471 D OpenGLRenderer: Swap behavior 0
+12-11 19:19:07.131  7443  7471 D EGL_emulation: eglCreateContext: 0x9d92ce40: maj 3 min 0 rcv 3
+12-11 19:19:07.136  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:07.137  7443  7471 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-11 19:19:07.138  7443  7471 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-11 19:19:07.201  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:07.209  7443  7472 W StorageManager: Could not read /sys/block/mmcblk0/size
+12-11 19:19:07.209  7443  7472 W StorageManager: java.io.FileNotFoundException: /sys/block/mmcblk0/size (No such file or directory)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at java.io.FileInputStream.open(Native Method)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:99)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at android.os.storage.StorageManager.readLong(StorageManager.java:944)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at android.os.storage.StorageManager.getPrimaryStorageSize(StorageManager.java:935)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at com.android.settings.deviceinfo.StorageSettings$SummaryProvider.updateSummary(StorageSettings.java:510)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at com.android.settings.deviceinfo.StorageSettings$SummaryProvider.setListening(StorageSettings.java:502)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader.setListeningW(SummaryLoader.java:192)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader.-wrap2(SummaryLoader.java)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader$Worker.handleMessage(SummaryLoader.java:253)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at android.os.Looper.loop(Looper.java:154)
+12-11 19:19:07.209  7443  7472 W StorageManager: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-11 19:19:07.210  7443  7472 W StorageManager: Could not read /sys/block/sda/size
+12-11 19:19:07.210  7443  7472 W StorageManager: java.io.FileNotFoundException: /sys/block/sda/size (No such file or directory)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at java.io.FileInputStream.open(Native Method)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at java.io.FileInputStream.<init>(FileInputStream.java:99)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at android.os.storage.StorageManager.readLong(StorageManager.java:944)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at android.os.storage.StorageManager.getPrimaryStorageSize(StorageManager.java:935)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at com.android.settings.deviceinfo.StorageSettings$SummaryProvider.updateSummary(StorageSettings.java:510)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at com.android.settings.deviceinfo.StorageSettings$SummaryProvider.setListening(StorageSettings.java:502)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader.setListeningW(SummaryLoader.java:192)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader.-wrap2(SummaryLoader.java)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at com.android.settings.dashboard.SummaryLoader$Worker.handleMessage(SummaryLoader.java:253)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at android.os.Looper.loop(Looper.java:154)
+12-11 19:19:07.210  7443  7472 W StorageManager: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-11 19:19:07.241  7443  7475 I IndexDatabaseHelper: Using schema version: 115
+12-11 19:19:07.241  7443  7475 I IndexDatabaseHelper: Index is fine
+12-11 19:19:07.244  7443  7475 D Index   : Locale 'en_US' is already indexed
+12-11 19:19:07.260  7443  7475 D Index   : Indexing locale 'en_US' took 13 millis
+12-11 19:19:07.270  1653  2295 I ProcessStatsService: Added stats: 2018-12-07-20-38-13, over +1h30m20s10ms
+12-11 19:19:07.323  7443  7475 D Index   : Indexing locale 'en_US' took 34 millis
+12-11 19:19:07.337  7443  7472 W ProcStatsManager: No process android.process.media/10011 for service com.android.providers.media.MediaScannerService
+12-11 19:19:07.337  7443  7472 W ProcStatsManager: No process com.google.android.onetimeinitializer/10016 for service com.google.android.onetimeinitializer.OneTimeService
+12-11 19:19:07.337  7443  7472 W ProcStatsManager: No process android.process.media/10011 for service com.android.providers.downloads.DownloadJobService
+12-11 19:19:07.337  7443  7472 W ProcStatsManager: No process com.android.vending:instant_app_installer/10021 for service com.google.android.finsky.instantapps.PhenotypeUpdateService
+12-11 19:19:07.343  7443  7472 W ProcStatsManager: No process com.android.vending:instant_app_installer/10021 for service com.google.android.finsky.instantapps.statussync.StatusSyncService
+12-11 19:19:07.343  7443  7472 W ProcStatsManager: No process com.android.vending:instant_app_installer/10021 for service com.google.android.finsky.instantapps.metrics.LogFlushJob
+12-11 19:19:07.343  7443  7472 W ProcStatsManager: No process com.android.vending:instant_app_installer/10021 for service com.google.android.finsky.instantapps.hint.AppPreloadHygieneService
+12-11 19:19:07.343  7443  7472 W ProcStatsManager: No process com.google.android.gm/10068 for service com.google.android.gm.provider.MailSyncAdapterService
+12-11 19:19:07.343  7443  7472 W ProcStatsManager: No process com.google.android.gm/10068 for service com.google.android.gm.GoogleMailSwitchService
+12-11 19:19:07.348  7443  7472 W ProcStatsManager: No process com.google.android.gm/10068 for service com.android.mail.widget.BaseGmailWidgetProviderService
+12-11 19:19:07.349  7443  7472 W ProcStatsManager: No process com.google.android.gm/10068 for service com.google.android.gm.GmailIntentService
+12-11 19:19:07.349  7443  7472 W ProcStatsManager: No process com.google.android.gm/10068 for service com.android.email.service.EmailBroadcastProcessorService
+12-11 19:19:07.350  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.sync.SyncAdapterService
+12-11 19:19:07.350  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.playback2.MusicPlaybackService
+12-11 19:19:07.350  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.autocache.AutoCacheSchedulingService
+12-11 19:19:07.351  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.download.artwork.ArtDownloadService
+12-11 19:19:07.352  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.sync.google.MusicGcmTaskService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.sync.SyncAdapterService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.autocache.AutoCacheSchedulingService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.download.artwork.ArtDownloadService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.android.music:main/10060 for service com.google.android.music.sync.google.MusicGcmTaskService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.android.printspooler/10069 for service com.android.printspooler.model.PrintSpoolerService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.android.apps.docs/10044 for service com.google.android.apps.docs.sync.syncadapter.DocsSyncAdapterService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.android.cellbroadcastreceiver/10004 for service com.android.cellbroadcastreceiver.CellBroadcastConfigService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.process.gapps/10051 for service com.google.android.syncadapters.contacts.delegation.DelegatorService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.process.gapps/10051 for service com.google.android.syncadapters.contacts.ContactsSyncAdapterIntentService
+12-11 19:19:07.353  7443  7472 W ProcStatsManager: No process com.google.process.gapps/10051 for service com.google.android.syncadapters.contacts.ContactsSyncAdapterService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.keychain/1000 for service com.android.keychain.KeyChainService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.chrome:webview_service/10038 for service org.chromium.android_webview.services.AwVariationsSeedFetcher
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.chrome:webview_service/10038 for service org.chromium.android_webview.services.VariationsSeedServer
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.chrome/10038 for service org.chromium.chrome.browser.customtabs.CustomTabsConnectionService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.chrome/10038 for service org.chromium.chrome.browser.invalidation.ChromeBrowserSyncAdapterService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.dialer/10009 for service com.android.dialer.calllog.CallLogNotificationsService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.android.gallery3d/10050 for service com.android.gallery3d.app.PackagesMonitor$AsyncService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.packageinstaller/10017 for service com.android.packageinstaller.permission.service.RuntimePermissionPresenterServiceImpl
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.AppInstalledService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.ClientIdService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.MccFallbackService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.AppHiderService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.RlzPingIntentService
+12-11 19:19:07.354  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.RlzPingService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.MccOverrideService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.partnersetup/10018 for service com.google.android.partnersetup.LauncherConfigService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.videos/10072 for service com.google.android.apps.play.movies.common.service.drm.RefreshLicenseTaskService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.videos/10072 for service com.google.android.apps.play.movies.common.store.sync.SyncService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.videos/10072 for service com.google.android.apps.play.movies.common.service.accounts.AccountsChangedTaskService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.videos/10072 for service com.google.android.apps.play.movies.common.service.pinning.TransferService
+12-11 19:19:07.356  7443  7472 W ProcStatsManager: No process com.google.android.videos/10072 for service com.google.android.apps.play.movies.common.service.player.logging.QoePingService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.libraries.social.notifications.service.GunsService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.dbprocessor.impl.DatabaseProcessorJobService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.registration.ReachabilityJobService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.jobqueue.PhotosJobQueueJobsService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.account.full.SyncAccountsForLoginService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.jobqueue.PhotosOfflineJobQueueJobsService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.libraries.social.async.BackgroundTaskService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.actionqueue.impl.OnlineActionJobsService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.metasync.periodic.MetaSyncGcoreGcmTaskService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.search.localclusters.trigger.LocalClusterGcoreGcmTaskService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.libraries.social.notifications.service.GunsService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.dbprocessor.impl.DatabaseProcessorJobService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.firebase.jobdispatcher.GooglePlayReceiver
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.registration.ReachabilityJobService
+12-11 19:19:07.357  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.jobqueue.PhotosJobQueueJobsService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.account.full.SyncAccountsForLoginService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.jobqueue.PhotosOfflineJobQueueJobsService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.backup.core.PhotosBackupGcoreGcmTaskService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.libraries.social.async.BackgroundTaskService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.actionqueue.impl.OnlineActionJobsService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.apps.photos/10066 for service com.google.android.apps.photos.metasync.periodic.MetaSyncGcoreGcmTaskService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.talk/10056 for service com.google.android.apps.hangouts.concurrent.impl.ConcurrentService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.talk/10056 for service com.google.android.apps.hangouts.realtimechat.RealTimeChatService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.talk/10056 for service com.google.android.apps.hangouts.mergedcontacts.impl.MergeContactsService
+12-11 19:19:07.358  7443  7472 W ProcStatsManager: No process com.google.android.talk/10056 for service com.google.android.apps.hangouts.concurrent.impl.GcmTriggeredNotifier
+12-11 19:19:07.475  7443  7443 D DashboardSummary: onConditionsChanged
+12-11 19:19:07.491  1653  1673 I ActivityManager: Displayed com.android.settings/.Settings: +844ms
+12-11 19:19:07.660  1653  1698 D WifiNative-HAL: Failing getSupportedFeatureset because HAL isn't started
+12-11 19:19:07.660  1653  2295 E BluetoothAdapter: Bluetooth binder is null
+12-11 19:19:07.661  1653  2295 E BatteryStatsService: no controller energy info supplied
+12-11 19:19:07.666  1653  2295 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-11 19:19:07.667  1653  2295 E KernelUidCpuTimeReader: Failed to read uid_cputime: /proc/uid_cputime/show_uid_stat (No such file or directory)
+12-11 19:19:07.667  1653  2295 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+12-11 19:19:07.839  1311  1311 W SurfaceFlinger: couldn't log to binary event log: overflow.
+12-11 19:19:10.693  7405  7405 D MonkeyStub: translateCommand: tap 1028 128
+12-11 19:19:10.732  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 51061251 , only wrote 51060960
+12-11 19:19:10.774  7443  7457 D Index   : Suggestions query: SELECT query FROM saved_queries ORDER BY rowId DESC LIMIT 5
+12-11 19:19:10.779  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:10.797  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:19:10.817  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:19:10.822  7443  7443 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:19:10.923  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:11.027  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:19:11.941  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:12.033  2064  7422 I Places  : ?: PlacesBleScanner stop()
+12-11 19:19:12.034  2064  2064 I BeaconBle: Scan : No clients left, canceling alarm.
+12-11 19:19:12.034  2064  2064 I BeaconBle: Scan canceled successfully.
+12-11 19:19:12.044  2064  7422 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+12-11 19:19:12.076  2064  2064 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+12-11 19:19:12.555  1653  2529 W AlarmManager: Window length 3074457345618258602ms suspiciously long; limiting to 1 hour
+12-11 19:19:12.699  7405  7405 D MonkeyStub: translateCommand: type accounts
+12-11 19:19:12.715  7443  7475 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:a* OR data_title_normalized:a* OR data_keywords:a*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.718  7443  7475 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:a* OR data_summary_on_normalized:a* OR data_summary_off:a* OR data_summary_off_normalized:a* OR data_entries:a*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:a* OR data_title_normalized:a* OR data_keywords:a*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.769  7443  7457 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:ac* OR data_title_normalized:ac* OR data_keywords:ac*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.778  7443  7457 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:ac* OR data_summary_on_normalized:ac* OR data_summary_off:ac* OR data_summary_off_normalized:ac* OR data_entries:ac*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:ac* OR data_title_normalized:ac* OR data_keywords:ac*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.804  7443  7475 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:acc* OR data_title_normalized:acc* OR data_keywords:acc*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.808  7443  7475 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:acc* OR data_summary_on_normalized:acc* OR data_summary_off:acc* OR data_summary_off_normalized:acc* OR data_entries:acc*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:acc* OR data_title_normalized:acc* OR data_keywords:acc*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.844  7443  7457 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:acco* OR data_title_normalized:acco* OR data_keywords:acco*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.845  7443  7457 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:acco* OR data_summary_on_normalized:acco* OR data_summary_off:acco* OR data_summary_off_normalized:acco* OR data_entries:acco*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:acco* OR data_title_normalized:acco* OR data_keywords:acco*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.876  7443  7475 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accou* OR data_title_normalized:accou* OR data_keywords:accou*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.878  7443  7475 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:accou* OR data_summary_on_normalized:accou* OR data_summary_off:accou* OR data_summary_off_normalized:accou* OR data_entries:accou*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accou* OR data_title_normalized:accou* OR data_keywords:accou*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.913  7443  7457 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accoun* OR data_title_normalized:accoun* OR data_keywords:accoun*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.914  7443  7457 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:accoun* OR data_summary_on_normalized:accoun* OR data_summary_off:accoun* OR data_summary_off_normalized:accoun* OR data_entries:accoun*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accoun* OR data_title_normalized:accoun* OR data_keywords:accoun*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.942  7443  7475 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:account* OR data_title_normalized:account* OR data_keywords:account*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.944  7443  7475 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:account* OR data_summary_on_normalized:account* OR data_summary_off:account* OR data_summary_off_normalized:account* OR data_entries:account*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:account* OR data_title_normalized:account* OR data_keywords:account*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.961  7443  7475 D Index   : Search primary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accounts* OR data_title_normalized:accounts* OR data_keywords:accounts*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:12.966  7443  7475 D Index   : Search secondary query: SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_summary_on:accounts* OR data_summary_on_normalized:accounts* OR data_summary_off:accounts* OR data_summary_off_normalized:accounts* OR data_entries:accounts*' AND locale = 'en_US' AND enabled = 1 EXCEPT SELECT data_rank, data_title, data_summary_on, data_summary_off, data_entries, data_keywords, class_name, screen_title, icon, intent_action, intent_target_package, intent_target_class, enabled, data_key_reference FROM prefs_index WHERE prefs_index MATCH 'data_title:accounts* OR data_title_normalized:accounts* OR data_keywords:accounts*' AND locale = 'en_US' AND enabled = 1 ORDER BY data_rank
+12-11 19:19:13.944  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 51367365 , only wrote 51215040
+12-11 19:19:15.932  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:19:15.932  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:19:15.955  7485  7485 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:15.961  1653  1666 I ActivityManager: Start proc 7485:com.google.android.calendar/u0a34 for broadcast com.google.android.calendar/com.android.calendar.alerts.AlertReceiver
+12-11 19:19:15.964  1653  1876 I ActivityManager: Killing 6048:com.google.android.talk/u0a56 (adj 906): empty #17
+12-11 19:19:15.975  7485  7485 W System  : ClassLoader referenced unknown path: /system/app/CalendarGooglePrebuilt/lib/x86
+12-11 19:19:16.017  1653  2295 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@2eafd)
+12-11 19:19:16.021  1653  2295 D ActivityManager: cleanUpApplicationRecord -- 6048
+12-11 19:19:16.021  1653  1702 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+12-11 19:19:16.045  1653  3966 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.playlog.service.START pkg=com.google.android.gms } U=0: not found
+12-11 19:19:16.045  1653  1891 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@18553f2
+12-11 19:19:16.045  7485  7485 E GmsClient: unable to connect to service: com.google.android.gms.playlog.service.START
+12-11 19:19:16.078  7485  7485 W AnalyticsLogBase: PlayLogger.onLoggerFailedConnection
+12-11 19:19:16.092  2640  7514 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:19:16.705  7405  7405 D MonkeyStub: translateCommand: tap 258 434
+12-11 19:19:16.780  1653  3799 I ActivityManager: START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from uid 1000 on display 0
+12-11 19:19:16.785  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 51215099 , only wrote 51215040
+12-11 19:19:16.884  7443  7443 D SubSettings: Launching fragment com.android.settings.accounts.AccountSettings
+12-11 19:19:16.984  7443  7475 D Index   : Indexing locale 'en_US' took 18 millis
+12-11 19:19:17.041  2064  2064 I BeaconBle: Scan : No clients left, canceling alarm.
+12-11 19:19:17.050  7443  7475 D Index   : Indexing locale 'en_US' took 19 millis
+12-11 19:19:17.095  7443  7475 D Index   : Deleting data for locale 'en_US' took 2 millis
+12-11 19:19:17.100  7443  7475 D Index   : Indexing locale 'en_US' took 5 millis
+12-11 19:19:17.150  2640  6985 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:19:17.156  2640  6985 I IcingInternalCorpora: EventIndexer: 0 added, 5 removed, 0 changed, 49 unchanged, 0 errors.
+12-11 19:19:17.216  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:19:17.275  2640  2640 I IcingInternalCorpora: EventIndexer: finished after 124 ms.
+12-11 19:19:17.340  7443  7443 E RecyclerView: No adapter attached; skipping layout
+12-11 19:19:17.477  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:17.561  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:17.644  1653  1673 I ActivityManager: Displayed com.android.settings/.SubSettings: +809ms
+12-11 19:19:17.645  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:17.652  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:17.663  7443  7443 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:19:17.664  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:19:17.680  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:19:17.686  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:17.698  7443  7443 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:19:17.703  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:17.734  7443  7453 W art     : Suspending all threads took: 6.089ms
+12-11 19:19:17.770  7443  7453 I art     : Background partial concurrent mark sweep GC freed 30861(2MB) AllocSpace objects, 7(344KB) LOS objects, 39% free, 6MB/10MB, paused 8.179ms total 139.567ms
+12-11 19:19:18.267  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:Event from com.google.android.gms
+12-11 19:19:18.299  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+12-11 19:19:18.306  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:MusicRecording from com.google.android.gms
+12-11 19:19:18.318  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:Event
+12-11 19:19:18.322  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+12-11 19:19:18.325  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:MusicRecording
+12-11 19:19:20.012  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 51522737 , only wrote 51369840
+12-11 19:19:21.084  7485  7502 I GAV2    : Thread[GAThread,5,main]: No campaign data found.
+12-11 19:19:21.709  7405  7405 D MonkeyStub: translateCommand: tap 277 263
+12-11 19:19:21.725  1653  1664 I ActivityManager: START u0 {act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras)} from uid 1000 on display 0
+12-11 19:19:21.734  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 51370000 , only wrote 51369840
+12-11 19:19:21.772  7443  7443 D SubSettings: Launching fragment com.android.settings.accounts.AccountSyncSettings
+12-11 19:19:21.833  7443  7457 D Index   : Indexing locale 'en_US' took 6 millis
+12-11 19:19:21.884  7443  7457 D Index   : Indexing locale 'en_US' took 5 millis
+12-11 19:19:22.193  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:22.250  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:22.308  1653  1673 I ActivityManager: Displayed com.android.settings/.SubSettings: +564ms
+12-11 19:19:22.317  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:22.330  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:22.354  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:22.382  7443  7471 D OpenGLRenderer: endAllActiveAnimators on 0x8ed73700 (RippleDrawable) with handle 0xa237f890
+12-11 19:19:23.715  7405  7405 D MonkeyStub: translateCommand: tap 1016 147
+12-11 19:19:23.857  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.895  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.906  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.918  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.956  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.968  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:23.979  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.008  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.031  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.058  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.081  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.090  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.105  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:24.142  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:25.505  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:25.727  7405  7405 D MonkeyStub: translateCommand: tap 732 260
+12-11 19:19:25.926  1653  1663 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@42d8757 attribute=null, token = android.os.BinderProxy@58b8580
+12-11 19:19:25.941  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:25.993  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.015  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.026  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.038  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.049  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.089  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.101  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.220  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:26.232  7443  7471 D OpenGLRenderer: endAllActiveAnimators on 0x8ebb8e80 (MenuPopupWindow$MenuDropDownListView) with handle 0x8ebb2e90
+12-11 19:19:26.807  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:19:26.807  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:19:27.300  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:19:27.301  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:19:27.470  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:19:27.487  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:27.606  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:19:27.660  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:19:27.732  7405  7405 D MonkeyStub: translateCommand: tap 742 1071
+12-11 19:19:27.779  1653  2530 I ActivityManager: Killing 3306:com.google.android.videos/u0a72 (adj 906): empty #17
+12-11 19:19:27.786  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:27.794  2064  2077 I Auth    : [CommonAuth,ManagedAccountUtil] No DO or PO.
+12-11 19:19:27.815  1653  1679 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@f5c75ba attribute=null, token = android.os.BinderProxy@58b8580
+12-11 19:19:27.822  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:27.838  1653  2528 D ActivityManager: cleanUpApplicationRecord -- 3306
+12-11 19:19:27.856  1653  1876 I AccountManagerService: the accounts changed, sending broadcast of android.accounts.LOGIN_ACCOUNTS_CHANGED
+12-11 19:19:27.866  2064  2064 I Backup  : [GmsBackupAccountManager] Backup account not found in gmscore.
+12-11 19:19:27.867  4986  4986 D MusicLifecycle: com.google.android.music.awareness.AwarenessRouter$2 generated event: Broadcast received with context com.google.android.music.ui.PhoneMusicApplication@29de7d8 and intent Intent { act=android.accounts.LOGIN_ACCOUNTS_CHANGED flg=0x4000010 }
+12-11 19:19:27.867  4986  4986 D MusicLifecycle: com.google.android.music.eventlog.MusicEventLogger$1 generated event: Broadcast received with context com.google.android.music.ui.PhoneMusicApplication@29de7d8 and intent Intent { act=android.accounts.LOGIN_ACCOUNTS_CHANGED flg=0x4000010 }
+12-11 19:19:27.928  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:19:27.948  2481  2521 I ContactsProvider: Accounts changed
+12-11 19:19:28.005  4986  4986 D MusicLifecycle: com.google.android.music.AccountsBroadcastReceiver generated event: Broadcast received with context android.app.ReceiverRestrictedContext@ee5fecc and intent Intent { act=android.accounts.LOGIN_ACCOUNTS_CHANGED flg=0x4000010 cmp=com.google.android.music/.AccountsBroadcastReceiver }
+12-11 19:19:28.006  4986  5004 I SignupStatusTask: Starting 'com.google.android.music.sync.google.MusicGcmTaskService
+12-11 19:19:28.018  4986  5016 D AwarenessRouter: 0 new fences
+12-11 19:19:28.026  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:19:28.027  4986  5016 D AwarenessRouter: 0 fences already registered
+12-11 19:19:28.044  7443  7475 D Index   : Indexing locale 'en_US' took 86 millis
+12-11 19:19:28.047  2640  6985 I Icing   : updateResources: need to parse aape{com.google.android.gms}
+12-11 19:19:28.071  6321  6321 I Finsky  : [1] com.google.android.finsky.du.a.j.a(5): Started reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+12-11 19:19:28.075  6321  6321 I Finsky  : [1] com.google.android.finsky.du.a.j.a(39): Finished reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+12-11 19:19:28.087  4986  5016 D AwarenessRouter: Successfully removed 0 context fences
+12-11 19:19:28.126  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:19:28.154  6321  6359 I Finsky  : [302] com.google.android.finsky.library.a.f.j(92): Unloading AccountLibrary for account: [FoArGjMcljfV1ylbpRMR5Z1m4yQ]
+12-11 19:19:28.154  6321  6359 I Finsky  : [302] com.google.android.finsky.library.a.f.j(87): Finished loading 0 libraries.
+12-11 19:19:28.185  6321  6366 D Volley  : [309] f.b: Cache cleared.
+12-11 19:19:28.185  6321  6360 D Volley  : [303] f.b: Cache cleared.
+12-11 19:19:28.197  6321  6321 D Volley  : [1] f.b: Cache cleared.
+12-11 19:19:28.215  6321  6321 I Finsky  : [1] com.google.android.finsky.accounts.impl.d.run(2): Killing app because current account has been removed
+12-11 19:19:28.220  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:19:28.228  6321  6321 I art     : System.exit called, status: 0
+12-11 19:19:28.228  6321  6321 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+12-11 19:19:28.235  7527  7527 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:28.240  1653  1891 I ActivityManager: Start proc 7527:com.google.android.apps.photos/u0a66 for broadcast com.google.android.apps.photos/.account.full.RefreshAccountsReceiver
+12-11 19:19:28.245  1309  1309 E lowmemorykiller: Error writing /proc/6321/oom_score_adj; errno=22
+12-11 19:19:28.252  1653  1891 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 76)
+12-11 19:19:28.260  7443  7475 D Index   : Deleting data for locale 'en_US' took 2 millis
+12-11 19:19:28.287  1653  2529 I ActivityManager: Process com.android.vending (pid 6321) has died
+12-11 19:19:28.287  1653  2529 D ActivityManager: cleanUpApplicationRecord -- 6321
+12-11 19:19:28.293  2481  2521 I ContactsProvider: Accounts changed
+12-11 19:19:28.294  7527  7527 W ResourceType: ResTable_typeSpec entry count inconsistent: given 467, previously 1297
+12-11 19:19:28.298  7443  7475 D Index   : Indexing locale 'en_US' took 38 millis
+12-11 19:19:28.549  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:28.686  2481  2521 D ContactDirectoryManager: Found com.google.android.gm.exchange.bundled.directory.provider
+12-11 19:19:28.686  2481  2521 D ContactDirectoryManager: Found com.google.contacts.gal.provider
+12-11 19:19:28.813  2481  2521 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+12-11 19:19:28.834  2640  6985 I Icing   : updateResources: need to parse aape{com.google.android.gm}
+12-11 19:19:28.868  1653  1661 I art     : Background sticky concurrent mark sweep GC freed 38444(2MB) AllocSpace objects, 54(1556KB) LOS objects, 20% free, 14MB/18MB, paused 5.315ms total 56.725ms
+12-11 19:19:28.872  2481  2521 I ContactDirectoryManager: Discovered 0 contact directories in 450ms
+12-11 19:19:28.880  2640  6985 I Icing   : Removing corpus key com.google.android.gm-messages/com.google/ctj784%40gmail.com for package com.google.android.gm
+12-11 19:19:28.988  2640  6985 I native  : flash-index.cc:1605 Flash index sort hb 1395 prefix-hits 4275 -> 3379 at 48.435ms
+12-11 19:19:29.075  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:19:29.075  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:19:29.316  7527  7532 I art     : Do partial code cache collection, code=2752B, data=30KB
+12-11 19:19:29.316  7527  7532 I art     : After code cache collection, code=2752B, data=30KB
+12-11 19:19:29.316  7527  7532 I art     : Increasing code cache capacity to 128KB
+12-11 19:19:29.562  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:19:29.568  2064  7565 I Auth    : [BroadcastManager] Broadcasting account change.
+12-11 19:19:29.575  2064  7565 W WakefulBroadcastReceiv.: No active wake lock id #9
+12-11 19:19:29.582  2640  6985 I Icing   : Removing corpus key com.google.android.gm-internal.3p:EmailMessage for package com.google.android.gm
+12-11 19:19:29.607  2640  7577 I PmtsSwAccountIntentOp: Processing intent action=android.accounts.LOGIN_ACCOUNTS_CHANGED
+12-11 19:19:29.607  2640  7577 I PmtsSwAccountIntentOp: Account added has already been processed
+12-11 19:19:29.621  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:29.744  7405  7405 D MonkeyStub: translateCommand: press KEYCODE_HOME
+12-11 19:19:29.758  1653  1687 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+12-11 19:19:29.760  2064  2076 I art     : Background sticky concurrent mark sweep GC freed 42290(2MB) AllocSpace objects, 7(308KB) LOS objects, 24% free, 10MB/14MB, paused 5.679ms total 81.342ms
+12-11 19:19:29.774  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:29.782  1360  1360 D WVCdm   : Instantiating CDM.
+12-11 19:19:29.783  1360  1386 I WVCdm   : CdmEngine::OpenSession
+12-11 19:19:29.783  1360  1386 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:19:29.788  1311  1758 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:19:29.793  1360  1386 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:19:29.801  1360  1386 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:19:29.802  1360  4704 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:19:29.804  1360  4704 D WVCdm   : PrepareKeyRequest: nonce=2233339828
+12-11 19:19:29.811  2064  2077 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
+12-11 19:19:29.932  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task PROCESS_ACCOUNT_CHANGE.
+12-11 19:19:29.953  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:29.954  2143  2310 W SessionLifecycleManager: Handover failed. Creating new session controller.
+12-11 19:19:29.964  1653  1661 I art     : Background partial concurrent mark sweep GC freed 18785(1234KB) AllocSpace objects, 28(696KB) LOS objects, 22% free, 13MB/17MB, paused 1.957ms total 138.214ms
+12-11 19:19:29.982  2064  2077 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:29.982  2064  2077 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:29.983  2064  2077 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:29.985  1653  3798 I ActivityManager: Start proc 7583:com.google.android.talk/u0a56 for broadcast com.google.android.talk/com.google.android.apps.hangouts.service.broadcastreceiver.AccountRefreshReceiver
+12-11 19:19:29.991  7583  7583 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:30.001  2143  2310 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 1 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 2 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 4 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 5 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 6 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 7 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 8 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 9 is Eligible = true
+12-11 19:19:30.010  2143  4853 I OptInChecker: Sidekick thinks 11 is Eligible = true
+12-11 19:19:30.011  2143  4853 I OptInChecker: Sidekick thinks 12 is Eligible = true
+12-11 19:19:30.011  2143  4853 I OptInChecker: UDC thinks - Setting = LOCATION_HISTORY_AND_REPORTING, Eligibility = ELIGIBLE
+12-11 19:19:30.011  2143  4853 I OptInChecker: Using UDC cache for Setting: LOCATION_HISTORY_AND_REPORTING
+12-11 19:19:30.011  2143  4853 I OptInChecker: UDC Setting = LOCATION_HISTORY_AND_REPORTING, optedIn = false
+12-11 19:19:30.066  2143  7599 W LocationOracle: No location history returned by ContextManager
+12-11 19:19:30.076  2064  2077 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:30.076  2064  2077 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:30.076  2064  2077 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:30.084  2143  2310 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+12-11 19:19:30.087  2143  2310 I AudioController: Created new AudioSource
+12-11 19:19:30.090  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:30.094  1360  3128 I WVCdm   : CdmEngine::CloseSession
+12-11 19:19:30.145  2873  7602 W ukj     : Already started: ukj@faa9b7a
+12-11 19:19:30.162  2064  2077 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-11 19:19:30.162  2064  2077 W GLSUser : java.io.IOException: Invalid device key response.
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):72)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):27)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at yfy.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):5)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at cpz.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):4)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at dsw.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):3)
+12-11 19:19:30.162  2064  2077 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:565)
+12-11 19:19:30.163  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:30.197  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:30.257  2143  7599 I MicroRecognitionRunner: Starting detection.
+12-11 19:19:30.258  2143  2278 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:30.263  1354  7607 I AudioFlinger: AudioFlinger's thread 0xaa603d40 ready to run
+12-11 19:19:30.269  2143  2278 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:30.302  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:30.370  2640  3001 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:30.370  2640  3001 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:30.370  2640  3001 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:30.380  2064  7482 W ctxmgr  : [AclManager]No 3 for (accnt=account#-517948760#, com.google.android.gms(10013):UserVelocityProducer, vrsn=14799022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 2064). Was: 3 for 1, account#-517948760#
+12-11 19:19:30.390  7583  7583 E art     : The String#value field is not present on Android versions >= 6.0
+12-11 19:19:30.481  7443  7471 D EGL_emulation: eglMakeCurrent: 0x9d92ce40: ver 3 0 (tinfo 0xa0ad1740)
+12-11 19:19:30.491  1653  1673 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+12-11 19:19:30.521  2143  2310 I MicroDetectionWorker: Initializing MicroDataManager InitializeType-2, isForced-true, isActivePhoneEnrollment-false isActiveGoogleHomeEnrollment-false
+12-11 19:19:30.540  7443  7443 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+12-11 19:19:30.598  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:30.757  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SEND_GSA_HOME_REQUEST.
+12-11 19:19:30.781  2640  3028 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=null serviceId=36
+12-11 19:19:30.890  2143  2155 W art     : Suspending all threads took: 8.026ms
+12-11 19:19:30.902  2143  2155 I art     : Background partial concurrent mark sweep GC freed 8822(407KB) AllocSpace objects, 5(704KB) LOS objects, 22% free, 13MB/17MB, paused 14.254ms total 306.795ms
+12-11 19:19:30.960  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 52253535 , only wrote 51812640
+12-11 19:19:31.025  2104  2157 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+12-11 19:19:31.038  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task OPA_CONTACT_ANNOTATIONS_PERIODIC_SYNC.
+12-11 19:19:31.170  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task OPA_CONTACT_ANNOTATIONS_PERIODIC_SYNC.
+12-11 19:19:31.212  2064  2338 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:31.214  2064  2338 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.214  2064  2338 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.278  2640  3001 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:31.283  2064  2064 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+12-11 19:19:31.286  2064  2064 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+12-11 19:19:31.293  2640  3001 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.293  2640  3001 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.294  2064  7626 I PlaceInferenceEngine: [anon] Changed inference mode: 0
+12-11 19:19:31.313  2064  2338 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:31.313  2064  2338 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.314  2064  2338 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:31.329  7583  7583 I Babel_telephony: TeleModule.onApplicationCreate
+12-11 19:19:31.333  7583  7583 I Babel_App: Startup - clean
+12-11 19:19:31.345  7583  7633 I Babel_SMS: MmsConfig: mnc/mcc: 310/260
+12-11 19:19:31.345  7583  7633 I Babel_SMS: MmsConfig.loadMmsSettings
+12-11 19:19:31.350  7583  7633 I Babel_SMS: MmsConfig.loadDeviceMmsSettings from API: userAgent=GoldfishNexus, uaProfUrl=http://gsm.lge.com/html/gsm/Nexus5-M3.xml
+12-11 19:19:31.350  7583  7633 I Babel_SMS: MmsConfig.loadFromDatabase
+12-11 19:19:31.366  7583  7583 D Babel_SmsDep: disabled
+12-11 19:19:31.368  7583  7633 E SQLiteLog: (1) no such table: mmsconfig
+12-11 19:19:31.369  7583  7633 I Babel_SMS: MmsConfig: no mmsconfig table android.database.sqlite.SQLiteException: no such table: mmsconfig (code 1): , while compiling: SELECT key, value, type FROM mmsconfig WHERE numeric=?
+12-11 19:19:31.369  7583  7633 I Babel_SMS: MmsConfig.loadFromResources
+12-11 19:19:31.373  7583  7633 E Babel_SMS: canonicalizeMccMnc: invalid mccmnc nullnull
+12-11 19:19:31.373  7583  7633 W Babel_SMS: MmsConfig: invalid key=userAgent or type=string
+12-11 19:19:31.373  7583  7633 W Babel_SMS: MmsConfig: invalid key=uaProfUrl or type=string
+12-11 19:19:31.373  7583  7633 I Babel_SMS: MmsConfig.loadMmsSettings: userAgent=GoldfishNexus, uaProfUrl=http://gsm.lge.com/html/gsm/Nexus5-M3.xml
+12-11 19:19:31.375  7583  7583 D Babel_SmsDepStand: count:3
+12-11 19:19:31.378  7583  7583 D Babel_SmsDep: disabled
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 0 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 1 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 2 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 3 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 4 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.398  7583  7583 I Babel   : Invalid account: 5 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 6 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 7 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 8 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 9 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 10 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 11 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 12 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.406  7583  7583 I Babel   : Invalid account: 13 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 14 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 15 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 16 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 17 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 18 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 19 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.407  7583  7583 I Babel   : Invalid account: 20 isEmptyName: true nameEqualsGaiaId: false
+12-11 19:19:31.425  7583  7583 D Babel_AcctMgr: created account ctj784@gmail.com => Redacted-16-chars
+12-11 19:19:31.431  7583  7640 I Babel   : Deleting: false for 0
+12-11 19:19:31.432  7583  7640 I Babel   : Deleting: false for 1
+12-11 19:19:31.432  7583  7640 I Babel   : Deleting: false for 2
+12-11 19:19:31.440  2064  7482 E ctxmgr  : [ProducerStatusImpl]updateStateForNewContextData: inactive, contextName=7
+12-11 19:19:31.448  7583  7640 I Babel   : Deleting: false for 3
+12-11 19:19:31.449  7583  7640 I Babel   : Deleting: false for 4
+12-11 19:19:31.449  7583  7640 I Babel   : Deleting: false for 5
+12-11 19:19:31.449  7583  7640 I Babel   : Deleting: false for 6
+12-11 19:19:31.450  7583  7640 I Babel   : Deleting: false for 7
+12-11 19:19:31.450  7583  7640 I Babel   : Deleting: false for 8
+12-11 19:19:31.450  7583  7640 I Babel   : Deleting: false for 9
+12-11 19:19:31.450  7583  7640 I Babel   : Deleting: false for 10
+12-11 19:19:31.451  7583  7640 I Babel   : Deleting: false for 11
+12-11 19:19:31.451  7583  7640 I Babel   : Deleting: false for 12
+12-11 19:19:31.451  7583  7640 I Babel   : Deleting: false for 13
+12-11 19:19:31.452  7583  7640 I Babel   : Deleting: false for 14
+12-11 19:19:31.452  7583  7640 I Babel   : Deleting: false for 15
+12-11 19:19:31.453  7583  7640 I Babel   : Deleting: false for 16
+12-11 19:19:31.453  7583  7640 I Babel   : Deleting: false for 17
+12-11 19:19:31.453  7583  7640 I Babel   : Deleting: false for 18
+12-11 19:19:31.453  7583  7640 I Babel   : Deleting: false for 19
+12-11 19:19:31.453  7583  7640 I Babel   : Deleting: false for 20
+12-11 19:19:31.481  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task CLEAR_TRAINING_DATA.
+12-11 19:19:31.618  7583  7583 I Babel_ConcService: Binding ConcurrentService
+12-11 19:19:31.657  7583  7648 I Babel_ConcService: Scheduling delay with GcmNetworkManager of 234296 s for task ggqaccount_reg_renewal_51754_8 and tag network_connectivity_wakeup:persisted
+12-11 19:19:31.661  7583  7648 I Babel_ConcService: Scheduling delay with GcmNetworkManager of 2623 s for task gjiDB_CLEANUP_1194080_8 and tag :persisted
+12-11 19:19:31.666  7583  7655 I Babel_ConcService: Acquired partial wake lock to keep ConcurrentService alive
+12-11 19:19:31.666  7583  7649 D Babel_SmsDep: disabled
+12-11 19:19:31.673  7583  7655 D Babel_SmsDep: disabled
+12-11 19:19:31.706  7583  7653 D Babel_SmsDepStand: count:3
+12-11 19:19:31.706  7583  7653 D Babel_SmsDepNotif: not sms
+12-11 19:19:31.707  7583  7653 D Babel_SmsDepUtil: imp:-1:3686
+12-11 19:19:31.752  7405  7405 D MonkeyStub: translateCommand: tap 852 1859
+12-11 19:19:31.772  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 51812711 , only wrote 51812640
+12-11 19:19:31.780  1653  2295 I ActivityManager: START u0 {flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10028 on display 0
+12-11 19:19:31.813  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:31.824  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:31.883  7583  7653 D Babel_Notif_Persistent: PersistentMessageNotifier.cancelOngoingNotification
+12-11 19:19:31.900  7583  7653 D Babel_Notif_SMS: cancelOngoingNotification
+12-11 19:19:31.960  2143  2310 I MicroDetector: Keeping mic open: false
+12-11 19:19:31.961  2143  4870 I AudioController: internalShutdown
+12-11 19:19:31.962  2143  2324 I MicroRecognitionRunner: Stopping hotword detection.
+12-11 19:19:31.971  2143  5121 I DeviceStateChecker: DeviceStateChecker cancelled
+12-11 19:19:31.977  2143  4870 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:32.051  2143  7599 I MicroRecognitionRunner: Detection finished
+12-11 19:19:32.107  7583  7649 I Babel_AcctMgr: updated: 21
+12-11 19:19:32.107  7583  7649 I Babel_AcctMgr: cleanup: 21
+12-11 19:19:32.143  7583  7649 I Babel   : Account update: 21 logged off
+12-11 19:19:32.144  7583  7649 I Babel   : Deleting database. Account ID: 21 Valid account: true Legacy logged off: false Logged in: false Plus page: false
+12-11 19:19:32.147  7583  7649 I Babel   : Deleting: true for 21
+12-11 19:19:32.255  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:32.266  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:32.277  2064  7626 I Places  : ?: PlacesBleScanner start() with priority 2
+12-11 19:19:32.277  2064  7626 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+12-11 19:19:32.310  2064  7626 I Places  : Converted 1 out of 1 WiFi scans
+12-11 19:19:32.316  2064  2064 E BeaconBle: Missing BluetoothAdapter
+12-11 19:19:32.316  2064  2064 I BeaconBle: BLE 'KK+' software access layer enabled
+12-11 19:19:32.322  2064  7626 I PlaceInferenceEngine: [anon] Changed inference mode: 1
+12-11 19:19:32.347  2064  2064 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places]
+12-11 19:19:32.348  2064  2064 I BeaconBle: Scan : No clients left, canceling alarm.
+12-11 19:19:32.348  2064  2064 E BeaconBle: Scan couldn't start for Places
+12-11 19:19:32.349  2064  2064 W Places  : BLE failure while scanning - code 5
+12-11 19:19:32.358  7583  7667 I Babel_Stickers: no account:21
+12-11 19:19:32.373  7668  7668 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:32.374  1653  2529 I ActivityManager: Start proc 7668:com.google.android.videos/u0a72 for broadcast com.google.android.videos/com.google.android.apps.play.movies.common.service.accounts.AccountsChangedTaskService$AccountsChangedReceiver
+12-11 19:19:32.379  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:32.398  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:32.412  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:32.432  7583  7652 D Babel_SmsDep: disabled
+12-11 19:19:32.496  2143  2278 I PBSessionCacheImpl: Deleted sessionId[771359998686] from persistence.
+12-11 19:19:32.516  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:32.534  7583  7652 D Babel_SmsDep: disabled
+12-11 19:19:32.596  1311  1311 W SurfaceFlinger: couldn't log to binary event log: overflow.
+12-11 19:19:32.690  7583  7652 I Babel_ConcService: Released partial wake lock as ConcurrentService became idle
+12-11 19:19:32.806  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.806  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.806  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.806  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.815  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.815  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.815  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:19:32.870  2064  2076 W art     : Suspending all threads took: 7.778ms
+12-11 19:19:32.888  2064  2076 I art     : Background sticky concurrent mark sweep GC freed 30871(1896KB) AllocSpace objects, 12(316KB) LOS objects, 10% free, 12MB/14MB, paused 10.009ms total 185.904ms
+12-11 19:19:33.076  7668  7668 W PlayMovies: VideosGlobalsModule.<init>:27 Installer Package: com.android.vending
+12-11 19:19:33.076  7668  7668 W PlayMovies: 
+12-11 19:19:33.083  2064  2338 I akef    : Scheduling Phenotype for a PhenotypeSyncImmediately(13, com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+12-11 19:19:33.161  2640  6985 I Icing   : Usage reports ok 3, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+12-11 19:19:33.168  2640  6985 I Icing   : Indexing com.google.android.gm-internal.3p:EmailMessage from com.google.android.gm
+12-11 19:19:33.175  2640  6985 I Icing   : Indexing done com.google.android.gm-internal.3p:EmailMessage
+12-11 19:19:33.189  2064  2076 I art     : Background partial concurrent mark sweep GC freed 41196(2MB) AllocSpace objects, 41(2MB) LOS objects, 26% free, 11MB/15MB, paused 3.013ms total 130.655ms
+12-11 19:19:33.364  2064  7627 I PlaceInferenceEngine: No beacon scan available - ignoring candidates.
+12-11 19:19:33.503  7703  7703 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:33.511  1653  3965 I ActivityManager: Start proc 7703:com.android.vending/u0a21 for service com.android.vending/com.google.android.finsky.contentfilterui.ContentFiltersService
+12-11 19:19:33.557  7668  7668 V MediaRouter: Adding route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=null types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-11 19:19:33.560  7668  7668 V MediaRouter: Updating audio routes: AudioRoutesInfo{ type=SPEAKER }
+12-11 19:19:33.562  7668  7668 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=null types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-11 19:19:33.576  7668  7668 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+12-11 19:19:33.629  7668  7668 W PrimesInit: Primes instant initialization
+12-11 19:19:33.631  7668  7724 W Primes  : background initialization
+12-11 19:19:33.650  2143  5094 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+12-11 19:19:33.653  7668  7724 I PrimesTesting: GserviceFlagsSupplier.get()
+12-11 19:19:33.698  2143  5094 I ModelDownloadListener: Schdedule model download
+12-11 19:19:33.709  2640  7574 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:19:33.756  7405  7405 D MonkeyStub: translateCommand: tap 928 147
+12-11 19:19:33.762  2640  3046 I CheckinChimeraService: Starting Checkin Task: CheckinNowTaskTag Reason : 4 Force : true UserId: 0
+12-11 19:19:33.801  2640  7574 I Auth    : [FRP,FrpUpdateIntentOperation] Frp is not supported for this device / user
+12-11 19:19:33.811  2064  7581 I Authzen : [AccountChangeProcessingIntentOperation] Received onHandleIntent() call: Intent { act=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE cat=[com.google.android.gms.auth.category.ACCOUNT_REMOVED] flg=0x10 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentInternalReceiver (has extras) }
+12-11 19:19:33.811  2064  7581 I Authzen : [AccountChangeProcessingIntentOperation] Handling account removal event.
+12-11 19:19:33.830  2064  7581 I Authzen : [PermitStore] Removing permit with permitId: <ELLIDED:450805978>...
+12-11 19:19:33.860  2064  7579 I GCoreUlr: Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE}]
+12-11 19:19:33.901  2640  7571 I Ads     : Accounts have changed: com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE
+12-11 19:19:33.930  2640  7574 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE cat=[com.google.android.gms.auth.category.ACCOUNT_REMOVED] flg=0x10 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentInternalReceiver (has extras) }.
+12-11 19:19:34.033  1653  3965 I ActivityManager: Killing 7443:com.android.settings/1000 (adj 900): remove task
+12-11 19:19:34.049  2640  7569 I MS_RegisterService: Tachyon host: instantmessaging-pa.googleapis.com, Tachyon port: 443
+12-11 19:19:34.050  1653  2528 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 10028 on display 0
+12-11 19:19:34.116  2640  2650 I art     : Background sticky concurrent mark sweep GC freed 7799(602KB) AllocSpace objects, 3(60KB) LOS objects, 7% free, 13MB/14MB, paused 4.761ms total 114.799ms
+12-11 19:19:34.129  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:34.164  2640  7738 I MS_RegisterService: RegisterService intent:Intent { act=com.google.android.gms.matchstick.register_intent_google_account_change cat=[targeted_intent_op_prefix:com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService } isPeriodic:false
+12-11 19:19:34.181  2640  7576 I PeopleDatabaseHelper: cleanUpNonGplusAccounts done.
+12-11 19:19:34.187  1653  1687 W InputDispatcher: channel 'e65b352 com.android.settings/com.android.settings.SubSettings (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+12-11 19:19:34.187  1653  1687 E InputDispatcher: channel 'e65b352 com.android.settings/com.android.settings.SubSettings (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-11 19:19:34.187  1653  1687 W InputDispatcher: channel '9e192f4 com.android.settings/com.android.settings.Settings (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+12-11 19:19:34.187  1653  1687 E InputDispatcher: channel '9e192f4 com.android.settings/com.android.settings.Settings (server)' ~ Channel is unrecoverably broken and will be disposed!
+12-11 19:19:34.226  2064  2064 E BluetoothAdapter: Bluetooth binder is null
+12-11 19:19:34.228  2640  7573 I AccountsChangedIntentOp: unsubscribe the deleted account ctj784@gmail.com
+12-11 19:19:34.229  2640  7573 I UdcContextInitChimeraSe: Scheduling context registration change job.
+12-11 19:19:34.241  2640  7576 I PeopleContactsSync: triggerPendingContactsCleanup: no accounts
+12-11 19:19:34.256  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:34.283  2640  7738 W DynamiteModule: Local module descriptor class for providerinstaller not found.
+12-11 19:19:34.284  2640  7738 I DynamiteModule: Considering local module providerinstaller:0 and remote module providerinstaller:0
+12-11 19:19:34.284  2640  7738 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+12-11 19:19:34.290  1653  2529 D GraphicsStats: Buffer count: 6
+12-11 19:19:34.290  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:19:34.307  1653  3966 D ActivityManager: cleanUpApplicationRecord -- 7443
+12-11 19:19:34.327  1653  1663 I WindowManager: WIN DEATH: Window{e65b352 u0 com.android.settings/com.android.settings.SubSettings}
+12-11 19:19:34.327  1653  1663 W InputDispatcher: Attempted to unregister already unregistered input channel 'e65b352 com.android.settings/com.android.settings.SubSettings (server)'
+12-11 19:19:34.331  1653  2529 I WindowManager: WIN DEATH: Window{9e192f4 u0 com.android.settings/com.android.settings.Settings}
+12-11 19:19:34.331  1653  2529 W InputDispatcher: Attempted to unregister already unregistered input channel '9e192f4 com.android.settings/com.android.settings.Settings (server)'
+12-11 19:19:34.367  2104  2157 D EGL_emulation: eglMakeCurrent: 0x9f797d60: ver 3 0 (tinfo 0x8f9d9100)
+12-11 19:19:34.373  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+12-11 19:19:34.379  2143  2310 W SessionLifecycleManager: Handover failed. Creating new session controller.
+12-11 19:19:34.427  2143  2155 W art     : Suspending all threads took: 5.071ms
+12-11 19:19:34.431  2640  3046 I CheckinRequestProcessor: Gmscore running on device, checkin will use Gmscore context
+12-11 19:19:34.431  2640  3046 I CheckinRequestBuilder: Checkin reason type: 4 attempt count: 1
+12-11 19:19:34.477  2143  2281 D EGL_emulation: eglMakeCurrent: 0x9d9708a0: ver 3 0 (tinfo 0xa9330390)
+12-11 19:19:34.492  2143  2155 I art     : Background sticky concurrent mark sweep GC freed 43281(2MB) AllocSpace objects, 9(316KB) LOS objects, 17% free, 14MB/17MB, paused 9.963ms total 195.348ms
+12-11 19:19:34.557  2640  3028 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32
+12-11 19:19:34.562  2640  3007 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33
+12-11 19:19:34.711  2640  7571 E btsi    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+12-11 19:19:34.711  2640  7571 E btsi    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+12-11 19:19:34.712  2640  7571 E btsi    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+12-11 19:19:34.712  2640  7571 E btsi    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+12-11 19:19:34.712  2640  7571 E btsi    : *~*~*~ Channel {0} was not shutdown properly!!! ~*~*~*
+12-11 19:19:34.712  2640  7571 E btsi    :     Make sure to call shutdown()/shutdownNow() and wait until awaitTermination() returns true.
+12-11 19:19:34.715  2064  3049 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:34.716  2064  3049 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:34.758  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:34.761  7405  7405 D MonkeyStub: translateCommand: press KEYCODE_HOME
+12-11 19:19:34.768  1653  1687 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000 on display 0
+12-11 19:19:34.773  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:34.787  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:19:34.797  2143  5094 I ModelDownloadController: requestHotwordModelUpdate modelType-OK_HEY_GOOGLE
+12-11 19:19:34.848  2143  2310 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+12-11 19:19:34.860  2143  2310 I AudioController: Created new AudioSource
+12-11 19:19:34.884  2143  2324 I MicroDataManager: Created a new hotword model for:
+12-11 19:19:34.884  2143  2324 I MicroDataManager:  LOC: https://www.gstatic.com/android-search/hotword/x_google/6132a9a606e11d4fad2fe60739162a89/hotword.data SR: 16000 CC: 1
+12-11 19:19:34.891  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:34.893  2143  7616 I MicroRecognitionRunner: Starting detection.
+12-11 19:19:34.895  2143  2324 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:34.899  1354  7748 I AudioFlinger: AudioFlinger's thread 0xaa483d00 ready to run
+12-11 19:19:34.903  2143  5094 I ModelDownloadController: We already downloaded model from given location.
+12-11 19:19:34.914  2640  2650 I art     : Background partial concurrent mark sweep GC freed 22495(1378KB) AllocSpace objects, 9(168KB) LOS objects, 22% free, 13MB/17MB, paused 1.545ms total 174.447ms
+12-11 19:19:34.939  2143  2324 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+12-11 19:19:34.961  7668  7668 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=null types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-11 19:19:34.977  2143  2310 I MicroDetectionWorker: onReady
+12-11 19:19:34.994  2640  7738 I TachyonSyncUtils: removeSyncAccount. Success: true
+12-11 19:19:35.040  2640  5560 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:35.040  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:35.040  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:35.232  2640  7738 W ChimeraUtils: Non Chimera context
+12-11 19:19:35.259  1360  1386 I WVCdm   : CdmEngine::OpenSession
+12-11 19:19:35.260  1360  1386 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:19:35.265  1360  1386 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:19:35.286  1653  1661 I art     : Background partial concurrent mark sweep GC freed 19533(818KB) AllocSpace objects, 2(40KB) LOS objects, 22% free, 14MB/18MB, paused 1.878ms total 220.678ms
+12-11 19:19:35.312  1360  1386 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:19:35.317  1360  4704 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:19:35.336  1360  4704 D WVCdm   : PrepareKeyRequest: nonce=2979171057
+12-11 19:19:35.517  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:35.518  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:19:35.536  2640  6985 I ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+12-11 19:19:35.587  3031  3031 W Binder:3031_2: type=1400 audit(0.0:34): avc: denied { search } for name="run" dev="dm-0" ino=294914 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:varrun_file:s0 tclass=dir permissive=0
+12-11 19:19:35.637  3031  3031 W Binder:3031_2: type=1400 audit(0.0:35): avc: denied { read } for name="/" dev="tmpfs" ino=90 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+12-11 19:19:35.635  1360  3128 I WVCdm   : CdmEngine::CloseSession
+12-11 19:19:35.637  1360  1386 I WVCdm   : CdmEngine::OpenSession
+12-11 19:19:35.638  1360  1386 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:19:35.639  1360  1386 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:19:35.642  1360  1386 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:19:35.643  1360  4704 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:19:35.643  1360  4704 D WVCdm   : PrepareKeyRequest: nonce=2979171057
+12-11 19:19:35.683  3031  3045 D EGL_emulation: eglCreateContext: 0x9d903720: maj 3 min 0 rcv 3
+12-11 19:19:35.689  3031  3045 D EGL_emulation: eglMakeCurrent: 0x9d903720: ver 3 0 (tinfo 0xa0a84950)
+12-11 19:19:35.689  3031  3045 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-11 19:19:35.690  3031  3045 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-11 19:19:35.690  7527  7537 W art     : Suspending all threads took: 1.267s
+12-11 19:19:35.704  7668  7752 W PlayMovies: UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 1
+12-11 19:19:35.704  7668  7752 W PlayMovies: 
+12-11 19:19:35.704  7668  7752 W PlayMovies: UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+12-11 19:19:35.704  7668  7752 W PlayMovies: 
+12-11 19:19:35.713  7668  7752 W PlayMovies: UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+12-11 19:19:35.713  7668  7752 W PlayMovies: 
+12-11 19:19:35.742  1360  3128 I WVCdm   : CdmEngine::CloseSession
+12-11 19:19:35.765  3031  3045 D EGL_emulation: eglCreateContext: 0x9d903ae0: maj 3 min 0 rcv 3
+12-11 19:19:35.768  3031  3045 D EGL_emulation: eglMakeCurrent: 0x9d903ae0: ver 3 0 (tinfo 0xa0a84950)
+12-11 19:19:35.768  3031  3045 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+12-11 19:19:35.768  3031  3045 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+12-11 19:19:35.782  2064  7630 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE
+12-11 19:19:35.790  2064  7630 I GCoreUlr: Dropping 11 UserPref keys; []
+12-11 19:19:35.792  2640  6985 I RealtimeCacheCleanup: Beginning Realtime garbage collection.
+12-11 19:19:35.793  2640  6985 I RealtimeCacheCleanup: Finished Realtime garbage collection.
+12-11 19:19:35.796  2064  7630 I GCoreUlr: Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_ACTIVE_STATE cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{source=restrictTo}]
+12-11 19:19:35.803  2640  7742 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:35.803  2640  7742 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:35.803  2640  7742 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:35.860  2640  7743 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+12-11 19:19:35.899  2064  7581 E ProximityAuth: [CryptauthDevicesSyncedIntentOperation] Invalid account: ctj784@gmail.com
+12-11 19:19:35.943  2143  2143 I EngineIdGenerator: Refusing EXCLUSIVE task FETCH_OPT_IN_STATUSES, it is already pending. Try again in 309 seconds.
+12-11 19:19:35.991  2064  7630 I GCoreUlr: WorldUpdater:com.google.android.gms.auth.GOOGLE_ACCOUNT_CHANGE: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+12-11 19:19:36.001  2064  2064 E BluetoothAdapter: Bluetooth binder is null
+12-11 19:19:36.041  2064  7629 E EasyUnlock: [HostValidator] Invalid account list.
+12-11 19:19:36.069  2640  3046 I CheckinUtil: Classify the device as Phone.
+12-11 19:19:36.082  3093  7759 I MagicTether: [HostValidator] InvalidHost. MobileData: true, Tethering: false, whitelist: false, ble: false
+12-11 19:19:36.084  2640  3046 I CheckinConnFactory: Get token from PseudonymousIdApi: 150=JR3qWgsXAjHQcTJCl47U_bwtxEkPlQa29cRp4hWv2YqY2fSXSgxNuLejDOwfUUDqlAEr_PTjqMEierw8Rck--OE6EqUIGZWcT7GRrfGy2tE667MJ5putBe7RkjJTKjSK3rTGgsaOC4eypnJYCl61g-pjzJd6faq5H7Cq9iHiXEE
+12-11 19:19:36.087  2640  3046 I CheckinRequestProcessor: set cookie as: NID=150=JR3qWgsXAjHQcTJCl47U_bwtxEkPlQa29cRp4hWv2YqY2fSXSgxNuLejDOwfUUDqlAEr_PTjqMEierw8Rck--OE6EqUIGZWcT7GRrfGy2tE667MJ5putBe7RkjJTKjSK3rTGgsaOC4eypnJYCl61g-pjzJd6faq5H7Cq9iHiXEE
+12-11 19:19:36.101  2064  4862 I MagicTether: [HostValidator] InvalidHost. MobileData: true, Tethering: false, whitelist: false, ble: false
+12-11 19:19:36.101  2640  7743 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0, imm upload true
+12-11 19:19:36.112  2640  5560 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:36.113  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.113  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.149  2640  3046 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:36.149  2640  3046 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.150  2640  3046 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.178  2064  7630 I GCoreUlr: Unbound from all signal providers.
+12-11 19:19:36.195  2064  2076 I art     : Background sticky concurrent mark sweep GC freed 26577(1726KB) AllocSpace objects, 13(476KB) LOS objects, 18% free, 12MB/15MB, paused 7.337ms total 120.493ms
+12-11 19:19:36.226  2064  7739 I GCoreUlr: Successfully accounts update
+12-11 19:19:36.227  2640  3046 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:36.227  2640  3046 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.227  2640  3046 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.249  2640  7742 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:19:36.249  2640  7742 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.249  2640  7742 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.311  2064  2406 W ResourceType: ResTable_typeSpec entry count inconsistent: given 19, previously 26
+12-11 19:19:36.339  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.app.ContextImpl.getDataDir(ContextImpl.java:1938)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:466)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.f.a(SourceFile:4)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.d.<init>(SourceFile:4)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.a.d.<init>(SourceFile:1)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.K(SourceFile:1171)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.a.be.a(SourceFile:5)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.volley.a.j.a(SourceFile:21)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.a.at(SourceFile:28)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.T(SourceFile:1451)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.E(SourceFile:783)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.g(SourceFile:1233)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.339  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.340  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:468)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.f.a(SourceFile:4)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.d.<init>(SourceFile:4)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.a.d.<init>(SourceFile:1)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.K(SourceFile:1171)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.a.be.a(SourceFile:5)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.volley.a.j.a(SourceFile:21)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.a.at(SourceFile:28)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.T(SourceFile:1451)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.E(SourceFile:783)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.g(SourceFile:1233)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.340  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.346  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:213)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.contains(SharedPreferencesImpl.java:280)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.j.a(SourceFile:5)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.d.<init>(SourceFile:4)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.du.a.a.d.<init>(SourceFile:1)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.K(SourceFile:1171)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.a.be.a(SourceFile:5)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.volley.a.j.a(SourceFile:21)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at b.a.c.a(SourceFile:9)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.a.at(SourceFile:28)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.T(SourceFile:1451)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.E(SourceFile:783)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.g(SourceFile:1233)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.346  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.351  7703  7725 I Finsky  : [329] com.google.android.finsky.du.a.j.a(5): Started reading experiment flags from file [SKocQA9EQQFTb-1gQsc5WsjVhGA].
+12-11 19:19:36.367  7703  7725 I Finsky  : [329] com.google.android.finsky.du.a.j.a(39): Finished reading experiment flags from file [SKocQA9EQQFTb-1gQsc5WsjVhGA].
+12-11 19:19:36.399  7703  7725 I Finsky  : [329] com.google.android.finsky.du.a.j.a(5): Started reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+12-11 19:19:36.399  7703  7725 I Finsky  : [329] com.google.android.finsky.du.a.j.a(39): Finished reading experiment flags from file [v6B-2IolLQRBwrwPhscSaeg04As].
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: Exception during register request.
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: btjw: PERMISSION_DENIED: The caller does not have permission
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at btjs.c(:com.google.android.gms@14799022@14.7.99 (040700-223214910):3)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at qtc.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):85)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at aeej.b(:com.google.android.gms@14799022@14.7.99 (040700-223214910):7)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at com.google.android.libraries.matchstick.net.SilentRegisterIntentOperation.onHandleIntent(:com.google.android.gms@14799022@14.7.99 (040700-223214910):206)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at duh.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):12)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at due.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.426  2640  7738 E MS_RegisterService: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.466  2064  7630 I GCoreUlr: DispatchingService ignoring Intent { act=android.net.wifi.WIFI_STATE_CHANGED flg=0x4000010 (has extras) } because ULR inactive
+12-11 19:19:36.495  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at android.app.ContextImpl.getCacheDir(ContextImpl.java:584)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getCacheDir(ContextWrapper.java:253)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:20)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.495  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.499  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:6)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.499  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.501  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at java.io.FileInputStream.<init>(FileInputStream.java:145)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.play.b.e.a(SourceFile:49)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:10)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.501  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.504  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:263)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.io.File.length(File.java:910)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.e.a(SourceFile:50)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:10)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.504  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:230)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at libcore.io.IoBridge.read(IoBridge.java:471)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.io.FileInputStream.read(FileInputStream.java:252)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.e.a(SourceFile:52)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:10)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.504  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.506  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at java.io.FileInputStream.<init>(FileInputStream.java:145)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.play.b.e.a(SourceFile:49)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:13)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.506  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.514  2064  7630 I GCoreUlr: DispatchingService.updateActiveState+restrictTo: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+12-11 19:19:36.518  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:263)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at java.io.File.length(File.java:910)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.play.b.e.a(SourceFile:50)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.play.b.e.<init>(SourceFile:13)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:24)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.518  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.524  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.play.b.r.b(SourceFile:56)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:18)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.524  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.525  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.io.File.createTempFile(File.java:1861)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.play.b.r.b(SourceFile:59)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:18)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.525  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.527  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=65567 violation=1
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1253)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.createFileExclusively(UnixFileSystem.java:279)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.io.File.createNewFile(File.java:948)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.io.File.createTempFile(File.java:1862)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.play.b.r.b(SourceFile:59)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:18)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.527  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.530  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskWriteViolation: policy=65567 violation=1
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1253)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:220)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:169)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.play.b.r.b(SourceFile:60)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:18)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.530  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.531  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:23)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.531  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:34)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.531  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.532  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.list(UnixFileSystem.java:300)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.io.File.list(File.java:1059)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.io.File.listFiles(File.java:1137)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:35)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.532  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.537  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:240)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at java.io.File.isFile(File.java:831)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:37)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.537  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.539  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:263)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at java.io.File.length(File.java:910)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:38)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.539  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.540  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:263)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at java.io.File.length(File.java:910)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.play.b.r.c(SourceFile:72)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:42)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.540  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.541  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:263)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at java.io.File.length(File.java:910)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.play.b.r.c(SourceFile:76)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.play.b.r.<init>(SourceFile:42)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:81)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.play.b.g.<init>(SourceFile:4)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:84)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.541  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.555  2064  7482 W ctxmgr  : [WorkManager]Long workInfo: pkg=com.google.android.gms, lbl=SystemStateManager_delete_account, start=2018-12-11 19:19:33.921-0600, stop=2018-12-11 19:19:36.488-0600, durtn=2567ms
+12-11 19:19:36.560  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:468)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.l.<init>(SourceFile:21)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.l.a(SourceFile:17)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:28)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.560  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.570  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:213)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.getLong(SharedPreferencesImpl.java:258)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.l.<init>(SourceFile:24)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.l.a(SourceFile:17)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.y.<init>(SourceFile:28)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:1215)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.c(SourceFile:1224)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:70)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.570  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.610  2064  7630 I GCoreUlr: Unbound from all signal providers.
+12-11 19:19:36.610  2064  7739 I GCoreUlr: Successfully accounts update
+12-11 19:19:36.629  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:468)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.f.a(SourceFile:4)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.al.a(SourceFile:30)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:91)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:87)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.629  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.641  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:213)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.contains(SharedPreferencesImpl.java:280)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.k.a(SourceFile:5)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.analytics.al.a(SourceFile:30)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.a(SourceFile:91)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bI(SourceFile:87)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bq.a_(SourceFile:7)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.641  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.666  2640  5560 E constellation: [gaia_id_checker] Couldn't sync with the server due to 
+12-11 19:19:36.666  2640  5560 E constellation: rqc: No consent
+12-11 19:19:36.666  2640  5560 E constellation: 	at rkz.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):8)
+12-11 19:19:36.666  2640  5560 E constellation: 	at rkz.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:19:36.666  2640  5560 E constellation: 	at rkz.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):57)
+12-11 19:19:36.666  2640  5560 E constellation: 	at com.google.android.gms.constellation.EventManager.onHandleIntent(:com.google.android.gms@14799022@14.7.99 (040700-223214910):62)
+12-11 19:19:36.666  2640  5560 E constellation: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:19:36.666  2640  5560 E constellation: 	at duh.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):12)
+12-11 19:19:36.666  2640  5560 E constellation: 	at due.run(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:19:36.666  2640  5560 E constellation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.666  2640  5560 E constellation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.666  2640  5560 E constellation: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.672  7703  7721 I Finsky  : [326] com.google.android.finsky.application.impl.c.bK(118): Not a unicorn device
+12-11 19:19:36.679  2064  2064 I GCoreUlr: Unbound from all signal providers.
+12-11 19:19:36.679  2064  2064 I GCoreUlr: Stopping handler for UlrDispSvcFast
+12-11 19:19:36.684  2064  7739 I GCoreUlr: Successfully accounts update
+12-11 19:19:36.746  7703  7721 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:468)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.finsky.ah.f.a(SourceFile:4)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.finsky.application.impl.c.bR(SourceFile:156)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.finsky.application.impl.bd.a_(SourceFile:32)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.746  7703  7721 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.748  7703  7721 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:213)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at android.app.SharedPreferencesImpl.contains(SharedPreferencesImpl.java:280)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.finsky.ah.j.a(SourceFile:5)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.finsky.application.impl.c.bR(SourceFile:156)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.finsky.application.impl.bd.a_(SourceFile:32)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.748  7703  7721 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.764  7703  7722 W Settings: Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-11 19:19:36.770  7703  7722 W Settings: Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-11 19:19:36.810  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:468)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:627)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:345)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:164)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.f.a(SourceFile:4)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.hygiene.impl.k.a(SourceFile:2)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.hygiene.impl.g.d(SourceFile:20)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bW(SourceFile:247)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bt.a_(SourceFile:13)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.810  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:213)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at android.app.SharedPreferencesImpl.contains(SharedPreferencesImpl.java:280)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.j.a(SourceFile:5)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.ah.q.a(SourceFile:5)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.hygiene.impl.k.a(SourceFile:2)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.hygiene.impl.g.d(SourceFile:20)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.bW(SourceFile:247)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bt.a_(SourceFile:13)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.810  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.828  7703  7785 I Finsky  : [346] com.google.android.finsky.library.a.f.j(87): Finished loading 0 libraries.
+12-11 19:19:36.847  7703  7722 I Finsky  : [327] com.google.android.finsky.verifier.impl.em.b(127): Setup app restrictions monitor
+12-11 19:19:36.852  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=4259871 violation=2
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.android.server.pm.UserManagerService.readApplicationRestrictionsLP(UserManagerService.java:2657)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.android.server.pm.UserManagerService.readApplicationRestrictionsLP(UserManagerService.java:2650)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.android.server.pm.UserManagerService.getApplicationRestrictionsForUser(UserManagerService.java:2607)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.android.server.pm.UserManagerService.getApplicationRestrictions(UserManagerService.java:2596)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.android.server.restrictions.RestrictionsManagerService$RestrictionsManagerImpl.getApplicationRestrictions(RestrictionsManagerService.java:72)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.content.IRestrictionsManager$Stub.onTransact(IRestrictionsManager.java:54)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:565)
+12-11 19:19:36.852  7703  7722 D StrictMode: # via Binder call with stack:
+12-11 19:19:36.852  7703  7722 D StrictMode: android.os.StrictMode$LogStackTrace
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1960)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:1665)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:1634)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.content.IRestrictionsManager$Stub$Proxy.getApplicationRestrictions(IRestrictionsManager.java:150)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at android.content.RestrictionsManager.getApplicationRestrictions(RestrictionsManager.java:422)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.finsky.verifier.impl.fv.a(SourceFile:14)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.finsky.verifier.impl.em.b(SourceFile:129)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.cl(SourceFile:323)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.by.a_(SourceFile:13)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.852  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.853  7703  7722 I Finsky  : [327] com.google.android.finsky.verifier.impl.fv.a(16): Device wide unknown source restriction is changed.
+12-11 19:19:36.870  7703  7722 D StrictMode: StrictMode policy violation: android.os.StrictMode$StrictModeDiskReadViolation: policy=65567 violation=2
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1293)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:249)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at java.io.File.exists(File.java:780)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:512)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at android.app.ContextImpl.getCacheDir(ContextImpl.java:584)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at android.content.ContextWrapper.getCacheDir(ContextWrapper.java:253)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.finsky.a.l_(SourceFile:6)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.i(SourceFile:513)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.c.cj(SourceFile:312)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.finsky.application.impl.bu.a_(SourceFile:15)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at b.b.a.f.a(SourceFile:11)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.s.a(SourceFile:5)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.r.run(SourceFile:17)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.common.util.concurrent.bn.run(SourceFile:3)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.apps.gsa.a.f.a.i.run(SourceFile:7)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at com.google.android.finsky.bo.w.run(Unknown Source)
+12-11 19:19:36.870  7703  7722 D StrictMode: 	at java.lang.Thread.run(Thread.java:761)
+12-11 19:19:36.880  7703  7721 I Finsky  : [326] com.google.android.finsky.wear.bs.a(11): Component class com.google.android.finsky.wear.WearSupportService enabled via PackageManager.
+12-11 19:19:36.881  7703  7721 I Finsky  : [326] com.google.android.finsky.wear.bs.a(11): Component class com.google.android.finsky.wear.WearChangeListenerService enabled via PackageManager.
+12-11 19:19:36.889  7703  7721 W Finsky  : [326] com.google.android.finsky.application.impl.c.e(683): For unauth, use getDfeApiNonAuthenticated() instead!
+12-11 19:19:36.928  7703  7716 I Finsky  : [322] com.google.android.finsky.er.b.a(49): Will not allow first-party apps signed by test keys
+12-11 19:19:36.929  7703  7716 I Finsky  : [322] com.google.android.finsky.contentfilterui.o.a(7): Received content filters request from com.google.android.videos
+12-11 19:19:36.952  7703  7703 I Finsky  : [1] com.google.android.finsky.installer.a.t.<init>(17): Not checking if recovering from paused session because experiment is off
+12-11 19:19:36.963  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 52308925 , only wrote 52061760
+12-11 19:19:36.973  7703  7703 I Finsky  : [1] com.google.android.finsky.installer.a.am.a(535): Installer kick - no action, not running yet
+12-11 19:19:36.973  7703  7703 I Finsky  : [1] com.google.android.finsky.installer.a.am.a(535): Installer kick - no action, not running yet
+12-11 19:19:37.046  7804  7804 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:19:37.047  1653  3965 I ActivityManager: Start proc 7804:android.process.media/u0a11 for content provider com.android.providers.downloads/.DownloadProvider
+12-11 19:19:37.069  7804  7804 W System  : ClassLoader referenced unknown path: /system/priv-app/DownloadProvider/lib/x86
+12-11 19:19:37.088  7804  7804 W System  : ClassLoader referenced unknown path: /system/priv-app/MediaProvider/lib/x86
+12-11 19:19:37.089  7804  7804 D ApplicationLoaders: ignored Vulkan layer search path /system/priv-app/MediaProvider/lib/x86:/system/priv-app/MediaProvider/MediaProvider.apk!/lib/x86:/system/lib:/vendor/lib for namespace 0xad457090
+12-11 19:19:37.258  7668  7823 W PlayMovies: UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 2
+12-11 19:19:37.258  7668  7823 W PlayMovies: 
+12-11 19:19:37.263  7668  7823 W PlayMovies: UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+12-11 19:19:37.263  7668  7823 W PlayMovies: 
+12-11 19:19:37.277  7668  7823 W PlayMovies: UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+12-11 19:19:37.277  7668  7823 W PlayMovies: 
+12-11 19:19:37.427  7703  7703 I Finsky  : [1] com.google.android.finsky.splitinstallservice.du.a(10): Connecting InstallListener to SplitInstallService broadcaster...
+12-11 19:19:37.629  2640  3046 I CheckinRequestProcessor: updateCheckinIdTokenFileFromResponse, Reading existing AID
+12-11 19:19:37.632  2640  3046 I CheckinRequestProcessor: CheckinNowTaskTag : Checkin Succeeded: https://android.googleapis.com/checkin (fragment #1): 

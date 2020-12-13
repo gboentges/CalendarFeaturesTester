@@ -1,0 +1,602 @@
+--------- beginning of main
+12-11 19:15:48.608  7291  7291 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 19:15:48.610  7291  7291 D AndroidRuntime: CheckJNI is ON
+12-11 19:15:48.644  7291  7291 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:15:48.648  7291  7291 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-11 19:15:48.666  7291  7291 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-11 19:15:48.666  7291  7291 E android.os.Debug: failed to load memtrack module: -2
+12-11 19:15:48.667  7291  7291 I Radio-JNI: register_android_hardware_Radio DONE
+12-11 19:15:48.676  7291  7291 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of system
+12-11 19:15:48.725  1653  1666 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{9d04f4b u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4dccd28 7291 (unknown name)/2000/u-1 remote:38f76c5}: process crashing
+12-11 19:15:50.409  7291  7291 D MonkeyStub: translateCommand: wake
+12-11 19:15:50.415  7291  7291 D MonkeyStub: translateCommand: tap 978 1702
+12-11 19:15:50.448  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 44786525 , only wrote 44786160
+12-11 19:15:50.545  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.657  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.676  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.694  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.721  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.733  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.747  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.833  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.848  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:50.863  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:52.419  7291  7291 D MonkeyStub: translateCommand: tap 978 1365
+12-11 19:15:52.437  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:52.445  1653  3965 I ActivityManager: START u0 {act=android.intent.action.INSERT flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.groove.CreateGrooveActivity} from uid 10034 on display 0
+12-11 19:15:53.395  6003  6003 I Choreographer: Skipped 45 frames!  The application may be doing too much work on its main thread.
+12-11 19:15:53.443  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:53.782  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:53.807  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:53.816  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.groove.CreateGrooveActivity: +1s342ms
+12-11 19:15:53.817  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:53.844  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:54.421  7291  7291 D MonkeyStub: translateCommand: tap 554 691
+12-11 19:15:56.431  7291  7291 D MonkeyStub: translateCommand: tap 283 499
+12-11 19:15:58.434  7291  7291 D MonkeyStub: translateCommand: tap 292 493
+12-11 19:16:00.439  7291  7291 D MonkeyStub: translateCommand: tap 267 614
+12-11 19:16:02.445  7291  7291 D MonkeyStub: translateCommand: tap 289 754
+12-11 19:16:04.448  7291  7291 D MonkeyStub: translateCommand: tap 983 421
+12-11 19:16:04.567  6003  7308 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:16:04.640  6003  7308 W CalendarSyncAdapter: Unhandled setting: tasksselected
+12-11 19:16:04.641  6003  7308 W CalendarSyncAdapter: Unhandled setting: tasksselected
+12-11 19:16:04.656  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:16:04.949  6003  7309 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:16:05.468  2640  2640 I GCM     : Message from 745476177629
+12-11 19:16:05.532  6003  7312 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:16:07.668  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 46437273 , only wrote 45612720
+12-11 19:16:11.041  6003  7316 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:16:11.098  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:16:11.817  6003  7316 I CalendarSyncAdapter: Found no pending settings
+12-11 19:16:11.924  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:11.942  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:12.067  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:12.072  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:12.114  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:12.137  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:12.155  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:12.297  6003  6013 I art     : Background sticky concurrent mark sweep GC freed 51593(2MB) AllocSpace objects, 1(16KB) LOS objects, 0% free, 67MB/67MB, paused 7.216ms total 68.390ms
+12-11 19:16:12.409  6003  6013 I art     : Background partial concurrent mark sweep GC freed 6070(269KB) AllocSpace objects, 11(17MB) LOS objects, 7% free, 49MB/53MB, paused 2.173ms total 107.630ms
+12-11 19:16:12.691  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:16:12.692  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:12.693  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:14.461  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:16:14.495  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 45612845 , only wrote 45612720
+12-11 19:16:16.469  7291  7291 D MonkeyStub: translateCommand: tap 238 267
+12-11 19:16:17.095  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:16:17.283  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:19.473  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:16:21.475  7291  7291 D MonkeyStub: translateCommand: tap 238 413
+12-11 19:16:24.478  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:16:26.481  7291  7291 D MonkeyStub: translateCommand: tap 247 517
+12-11 19:16:26.687  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:16:26.691  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:16:27.187  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:16:27.189  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:27.378  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:27.490  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:16:27.549  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:27.907  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:16:28.163  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:28.987  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:28.987  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:28.987  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:29.487  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:16:31.493  7291  7291 D MonkeyStub: translateCommand: tap 238 663
+12-11 19:16:34.498  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:16:36.500  7291  7291 D MonkeyStub: translateCommand: tap 238 132
+12-11 19:16:37.046  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:37.048  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:37.748  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:16:37.749  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:16:37.869  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:16:38.558  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:38.632  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:16:39.218  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:16:39.727  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 48033001 , only wrote 46823760
+12-11 19:16:40.387  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:41.511  7291  7291 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:16:41.551  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 46824072 , only wrote 46823760
+12-11 19:16:41.675  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:16:41.676  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:16:41.736  2640  7329 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:16:41.846  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:16:42.757  2640  6985 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:16:42.765  2640  6985 I IcingInternalCorpora: EventIndexer: 5 added, 0 removed, 0 changed, 49 unchanged, 0 errors.
+12-11 19:16:42.838  2640  2640 I IcingInternalCorpora: EventIndexer: finished after 81 ms.
+12-11 19:16:43.516  7291  7291 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:16:43.803  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:Event from com.google.android.gms
+12-11 19:16:43.860  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:Event
+12-11 19:16:43.862  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:MusicRecording from com.google.android.gms
+12-11 19:16:43.876  2640  6985 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+12-11 19:16:43.895  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:MusicRecording
+12-11 19:16:43.901  2640  6985 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+12-11 19:16:43.979  1653  2295 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:16:44.676  1653  1673 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+12-11 19:16:44.713  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:16:44.748  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:16:44.789  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:44.885  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +861ms
+12-11 19:16:44.939  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:16:45.499  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:16:46.742  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 47320155 , only wrote 47072880
+12-11 19:16:47.519  7291  7291 D MonkeyStub: translateCommand: type work
+12-11 19:16:49.529  7291  7291 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:16:49.557  1653  1891 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:16:49.586  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577409 ; date = ?
+12-11 19:16:49.620  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:16:49.633  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:16:49.637  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:16:49.637  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:16:49.647  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:16:49.722  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:49.723  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:49.727  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:49.729  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:16:54.542  7291  7291 D MonkeyStub: translateCommand: tap 409 445
+12-11 19:16:54.564  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 47073087 , only wrote 47072880
+12-11 19:16:54.613  1653  2528 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:16:55.907  6003  6003 I Choreographer: Skipped 69 frames!  The application may be doing too much work on its main thread.
+12-11 19:16:56.016  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.132  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.136  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:16:56.231  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.376  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.390  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s743ms
+12-11 19:16:56.394  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.408  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:56.437  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:16:57.505  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:57.548  7291  7291 D MonkeyStub: translateCommand: tap 63 610
+12-11 19:16:58.444  6003  6003 I Choreographer: Skipped 51 frames!  The application may be doing too much work on its main thread.
+12-11 19:16:58.554  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:58.672  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:58.705  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:58.736  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:16:59.554  7291  7291 D MonkeyStub: translateCommand: tap 383 810
+12-11 19:16:59.594  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.183  6003  6003 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+12-11 19:17:00.249  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.343  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.372  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.390  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.458  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:00.478  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:01.564  7291  7291 D MonkeyStub: translateCommand: tap 267 676
+12-11 19:17:01.591  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:01.656  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:01.677  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:01.682  1653  1664 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@ef11b24 attribute=null, token = android.os.BinderProxy@15d7dea
+12-11 19:17:03.570  7291  7291 D MonkeyStub: translateCommand: tap 223 1619
+12-11 19:17:04.184  6003  6003 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+12-11 19:17:04.284  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:04.415  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:04.442  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:04.464  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:04.506  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:04.525  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:05.577  7291  7291 D MonkeyStub: translateCommand: tap 260 1228
+12-11 19:17:05.606  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:05.680  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:05.727  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:05.729  1653  2295 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@7fec853 attribute=null, token = android.os.BinderProxy@15d7dea
+12-11 19:17:07.582  7291  7291 D MonkeyStub: translateCommand: tap 983 117
+12-11 19:17:07.777  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:07.885  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:07.895  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x84f4df80 (RippleDrawable) with handle 0x8c687ec0
+12-11 19:17:07.923  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:07.923  1653  1661 I art     : Background partial concurrent mark sweep GC freed 28382(1400KB) AllocSpace objects, 9(308KB) LOS objects, 22% free, 13MB/17MB, paused 2.781ms total 103.970ms
+12-11 19:17:08.027  6003  7340 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:08.049  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:17:08.334  6003  7344 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:08.412  6003  7344 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:08.722  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:17:08.740  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:17:09.588  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:17:09.622  1653  2530 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:09.655  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:09.824  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:09.858  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:09.906  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:09.922  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:09.949  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:09.960  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:09.965  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:09.983  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:10.002  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x87188080 (RippleDrawable) with handle 0x8b30ddc0
+12-11 19:17:10.242  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:10.250  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:12.835  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 48824823 , only wrote 47949840
+12-11 19:17:14.601  7291  7291 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:17:14.632  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 47950172 , only wrote 47949840
+12-11 19:17:16.606  7291  7291 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:17:17.046  1653  1663 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:17:17.136  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:17:17.227  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:17:17.234  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:17.279  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:17:17.290  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +214ms
+12-11 19:17:17.403  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:17:17.877  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:17:19.823  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 48446004 , only wrote 48198960
+12-11 19:17:20.615  7291  7291 D MonkeyStub: translateCommand: type work
+12-11 19:17:22.621  7291  7291 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:17:22.638  1653  1873 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:22.666  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:17:22.672  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577442 ; date = ?
+12-11 19:17:22.677  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:22.677  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:22.685  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:17:22.706  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:17:22.768  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:22.770  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:22.771  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:22.772  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:26.727  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:17:26.727  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:17:27.227  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:17:27.227  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:27.388  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:27.531  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:17:27.592  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:27.635  7291  7291 D MonkeyStub: translateCommand: tap 409 445
+12-11 19:17:27.654  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 48199198 , only wrote 48198960
+12-11 19:17:27.709  1653  3798 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:27.946  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:17:28.173  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:28.956  6003  6003 I Choreographer: Skipped 69 frames!  The application may be doing too much work on its main thread.
+12-11 19:17:29.027  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:29.028  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:29.028  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:29.062  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.178  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.182  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:29.267  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.353  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.377  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.377  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s648ms
+12-11 19:17:29.393  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:29.414  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:17:30.570  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:30.641  7291  7291 D MonkeyStub: translateCommand: tap 630 1724
+12-11 19:17:30.693  1311  1317 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:30.839  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:30.862  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x85846a80 (RippleDrawable) with handle 0x8717d0c0
+12-11 19:17:30.930  1653  1661 I art     : Background partial concurrent mark sweep GC freed 22831(1020KB) AllocSpace objects, 5(100KB) LOS objects, 22% free, 13MB/17MB, paused 9.878ms total 144.941ms
+12-11 19:17:31.006  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.007  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.010  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.011  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.064  6003  7349 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:31.250  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:17:31.268  2064  2071 I art     : Do partial code cache collection, code=1005KB, data=837KB
+12-11 19:17:31.268  2064  2071 I art     : After code cache collection, code=1001KB, data=835KB
+12-11 19:17:31.268  2064  2071 I art     : Increasing code cache capacity to 3MB
+12-11 19:17:31.517  6003  7349 E SyncLog : EventHandler::UpdateEvent: Precondition Failed Entity[ id=1319 sync_id=hkjhavmfh3c5cj2k8gbkpgd0bg calendar_id=3 calendar_sync_id=1566047787 ] 
+12-11 19:17:31.517  6003  7349 E SyncLog : com.google.api.client.googleapis.json.GoogleJsonResponseException: 412 Precondition Failed
+12-11 19:17:31.517  6003  7349 E SyncLog : {
+12-11 19:17:31.517  6003  7349 E SyncLog :   "errors": [
+12-11 19:17:31.517  6003  7349 E SyncLog :     {
+12-11 19:17:31.517  6003  7349 E SyncLog :       "reason": "conditionNotMet",
+12-11 19:17:31.517  6003  7349 E SyncLog :       "domain": "global",
+12-11 19:17:31.517  6003  7349 E SyncLog :       "message": "Precondition Failed",
+12-11 19:17:31.517  6003  7349 E SyncLog :       "locationType": "header",
+12-11 19:17:31.517  6003  7349 E SyncLog :       "location": "If-Match"
+12-11 19:17:31.517  6003  7349 E SyncLog :     }
+12-11 19:17:31.517  6003  7349 E SyncLog :   ],
+12-11 19:17:31.517  6003  7349 E SyncLog :   "message": "Precondition Failed",
+12-11 19:17:31.517  6003  7349 E SyncLog :   "code": 412
+12-11 19:17:31.517  6003  7349 E SyncLog : }
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:113)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:40)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest$1.interceptResponse(AbstractGoogleClientRequest.java:321)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1065)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarRequestExecutor.executeInternal(CalendarRequestExecutor.java:146)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarRequestExecutor.execute(CalendarRequestExecutor.java:120)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.EventHandler.sendEntityToServer(EventHandler.java:685)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarSyncAdapterApiary.sendEntityToServer(CalendarSyncAdapterApiary.java:4134)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarSyncAdapterApiary.processLocalChanges(CalendarSyncAdapterApiary.java:4060)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarSyncAdapterApiary.processLocalChangesForHandler(CalendarSyncAdapterApiary.java:3958)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarSyncAdapterApiary.performSync(CalendarSyncAdapterApiary.java:804)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.google.android.syncadapters.calendar.CalendarSyncAdapterApiary.onPerformLoggedSync(CalendarSyncAdapterApiary.java:555)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at com.android.emailcommon.syncadapter.LoggingThreadedSyncAdapter.onPerformSync(LoggingThreadedSyncAdapter.java:50)
+12-11 19:17:31.517  6003  7349 E SyncLog : 	at android.content.AbstractThreadedSyncAdapter$SyncThread.run(AbstractThreadedSyncAdapter.java:272)
+12-11 19:17:31.791  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.793  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.795  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.796  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:31.930  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:17:32.204  6003  7349 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:32.267  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:32.267  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:32.268  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:32.269  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:32.315  6003  7353 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:32.392  6003  7353 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:32.652  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:17:32.680  1653  1891 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:32.723  1311  1317 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:32.978  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:33.061  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:33.115  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:33.179  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:33.207  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:17:33.208  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:33.239  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x84f3b700 (RippleDrawable) with handle 0x8650bcd0
+12-11 19:17:33.297  6003  6013 I art     : Background sticky concurrent mark sweep GC freed 54717(2MB) AllocSpace objects, 2(128KB) LOS objects, 0% free, 49MB/49MB, paused 4.374ms total 128.233ms
+12-11 19:17:33.434  6003  6013 I art     : Background partial concurrent mark sweep GC freed 28583(1552KB) AllocSpace objects, 13(16MB) LOS objects, 11% free, 31MB/35MB, paused 3.045ms total 123.873ms
+12-11 19:17:33.787  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:35.874  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 48986010 , only wrote 48593520
+12-11 19:17:37.667  7291  7291 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:17:37.693  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 48593599 , only wrote 48593520
+12-11 19:17:37.785  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:17:37.786  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:17:37.907  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:17:38.595  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:38.675  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:17:39.260  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:17:39.670  7291  7291 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:17:40.116  1653  2530 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:17:40.280  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:17:40.286  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:40.316  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:17:40.337  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +187ms
+12-11 19:17:40.426  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:40.483  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:17:40.899  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:17:41.887  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:17:42.279  6003  7356 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:42.313  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:17:42.830  6003  7356 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:42.899  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 49091284 , only wrote 48843360
+12-11 19:17:43.673  7291  7291 D MonkeyStub: translateCommand: type work
+12-11 19:17:43.784  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:17:45.676  7291  7291 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:17:45.682  1653  2295 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:45.702  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:17:45.717  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577465 ; date = ?
+12-11 19:17:45.723  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:17:45.736  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:45.736  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:45.751  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:17:45.833  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:45.835  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:45.836  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:45.838  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:45.841  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:50.689  7291  7291 D MonkeyStub: translateCommand: tap 409 445
+12-11 19:17:50.713  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 48843466 , only wrote 48843360
+12-11 19:17:50.757  1653  2295 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:52.128  1653  1673 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+12-11 19:17:52.172  6003  6003 I Choreographer: Skipped 80 frames!  The application may be doing too much work on its main thread.
+12-11 19:17:52.301  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.428  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.431  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:52.509  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.591  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.609  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.617  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s844ms
+12-11 19:17:52.621  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:52.662  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:17:53.605  2640  2640 I GCM     : Message from 745476177629
+12-11 19:17:53.642  6003  7368 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:53.674  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:17:53.693  7291  7291 D MonkeyStub: translateCommand: tap 893 1724
+12-11 19:17:53.703  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:53.760  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:53.912  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:53.947  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x86a05680 (RippleDrawable) with handle 0x86848a00
+12-11 19:17:54.057  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.059  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.064  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.067  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.367  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.368  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.369  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.370  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.799  6003  7368 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:54.856  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.857  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.858  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.858  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:54.869  6003  7372 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:17:54.948  6003  7372 I CalendarSyncAdapter: Found no pending settings
+12-11 19:17:54.965  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:17:55.696  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:17:55.726  1653  1876 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:17:55.770  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:17:56.020  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:56.108  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:56.154  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:17:56.174  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:56.190  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:56.222  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:56.254  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:17:56.277  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x85228880 (RippleDrawable) with handle 0x867e37a0
+12-11 19:17:56.489  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:17:58.919  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 49629031 , only wrote 49237200
+12-11 19:18:00.708  7291  7291 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:18:00.743  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 49237277 , only wrote 49237200
+12-11 19:18:02.712  7291  7291 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:18:03.147  1653  3965 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:18:03.341  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:18:03.371  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:18:03.413  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:03.537  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +360ms
+12-11 19:18:03.572  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:18:04.135  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:18:05.919  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 49732054 , only wrote 49485600
+12-11 19:18:06.717  7291  7291 D MonkeyStub: translateCommand: type work
+12-11 19:18:08.724  7291  7291 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:18:08.750  1653  3798 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:08.784  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577488 ; date = ?
+12-11 19:18:08.784  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:18:08.789  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:08.789  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:08.806  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:18:08.811  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:18:08.863  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:08.866  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:08.899  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:08.901  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:13.753  7291  7291 D MonkeyStub: translateCommand: tap 409 445
+12-11 19:18:13.775  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 49485830 , only wrote 49485600
+12-11 19:18:13.817  1653  3798 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:15.239  6003  6003 I Choreographer: Skipped 80 frames!  The application may be doing too much work on its main thread.
+12-11 19:18:15.350  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.468  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.478  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:15.561  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.654  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.671  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.680  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s842ms
+12-11 19:18:15.686  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:15.729  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:18:16.758  7291  7291 D MonkeyStub: translateCommand: tap 893 1724
+12-11 19:18:16.770  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:16.816  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:18:16.918  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:16.934  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:16.951  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:16.959  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x8524df00 (RippleDrawable) with handle 0x86d366c0
+12-11 19:18:16.999  1653  1661 I art     : Background partial concurrent mark sweep GC freed 23014(1006KB) AllocSpace objects, 4(80KB) LOS objects, 22% free, 14MB/18MB, paused 4.765ms total 143.248ms
+12-11 19:18:17.029  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:17.125  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:17.126  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:17.127  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:17.129  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:17.131  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:17.175  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:18:17.945  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:18:18.760  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:18:18.773  1653  3965 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:18.814  1311  1317 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:18:18.941  1653  1661 I art     : Background partial concurrent mark sweep GC freed 6863(410KB) AllocSpace objects, 8(244KB) LOS objects, 22% free, 13MB/17MB, paused 2.277ms total 107.392ms
+12-11 19:18:19.042  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:19.117  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:19.187  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:19.201  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:19.204  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:19.216  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:19.489  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:19.490  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:21.982  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 50271235 , only wrote 49879440
+12-11 19:18:23.768  7291  7291 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:18:23.796  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 49879510 , only wrote 49879440
+12-11 19:18:25.772  7291  7291 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:18:26.219  1653  1876 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:18:26.455  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:18:26.474  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:26.501  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:18:26.589  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +334ms
+12-11 19:18:26.638  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:18:26.769  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:18:26.769  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:18:27.231  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:18:27.262  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:18:27.263  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:27.429  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:27.569  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:18:27.622  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:27.986  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:18:28.179  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:28.987  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 50375762 , only wrote 50128560
+12-11 19:18:29.071  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:29.071  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:29.072  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:29.775  7291  7291 D MonkeyStub: translateCommand: type work
+12-11 19:18:31.781  7291  7291 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:18:31.793  1653  1679 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:31.814  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:18:31.824  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:18:31.826  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577511 ; date = ?
+12-11 19:18:31.828  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:31.828  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:31.865  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:18:31.950  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:31.953  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:31.956  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:31.958  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:31.959  6003  6003 D StyledCornersBitmapDrawable: Skipping invalidate.
+12-11 19:18:36.793  7291  7291 D MonkeyStub: translateCommand: tap 409 445
+12-11 19:18:36.809  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 50128690 , only wrote 50128560
+12-11 19:18:36.858  1653  2529 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:37.801  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:18:37.802  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:18:37.947  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:18:38.247  6003  6003 I Choreographer: Skipped 77 frames!  The application may be doing too much work on its main thread.
+12-11 19:18:38.360  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.566  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.577  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:38.637  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:38.676  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.717  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:18:38.770  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.791  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.806  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s924ms
+12-11 19:18:38.814  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:38.859  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:18:39.296  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:18:39.798  7291  7291 D MonkeyStub: translateCommand: tap 1008 143
+12-11 19:18:39.827  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:39.981  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.009  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.025  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.049  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.098  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.110  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.124  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.135  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.152  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.163  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.180  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.184  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.192  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.207  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.219  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.231  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.242  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.253  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.272  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.292  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:40.464  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:41.619  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:41.800  7291  7291 D MonkeyStub: translateCommand: tap 667 132
+12-11 19:18:41.929  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:18:41.931  1653  1876 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@346d0b4 attribute=null, token = android.os.BinderProxy@de78f
+12-11 19:18:42.319  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.389  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.400  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.413  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.426  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.440  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.524  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:42.533  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x850c4300 (MenuPopupWindow$MenuDropDownListView) with handle 0x8717d200
+12-11 19:18:43.539  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:43.802  7291  7291 D MonkeyStub: translateCommand: tap 338 965
+12-11 19:18:45.812  7291  7291 D MonkeyStub: translateCommand: tap 899 1128
+12-11 19:18:45.887  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:45.912  1653  3965 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@d70f1d9 attribute=null, token = android.os.BinderProxy@de78f
+12-11 19:18:45.990  6003  7389 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:18:46.003  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:18:46.067  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:46.193  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:18:46.212  1653  1661 I art     : Background partial concurrent mark sweep GC freed 29408(1385KB) AllocSpace objects, 9(264KB) LOS objects, 22% free, 13MB/17MB, paused 2.919ms total 176.960ms
+12-11 19:18:46.506  6003  7392 W AbstractGoogleClient: Application name is not set. Call Builder#setApplicationName.
+12-11 19:18:46.579  6003  7392 I CalendarSyncAdapter: Found no pending settings
+12-11 19:18:46.960  2143  2143 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SMARTSPACE_CALENDAR_REFRESH.
+12-11 19:18:46.970  2143  2310 W SearchServiceCore: Abort, client detached.
+12-11 19:18:47.816  7291  7291 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:18:47.842  1653  3799 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:18:47.889  1311  1317 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:18:48.018  1653  1661 I art     : Background partial concurrent mark sweep GC freed 17232(1003KB) AllocSpace objects, 20(732KB) LOS objects, 22% free, 13MB/17MB, paused 2.950ms total 106.292ms
+12-11 19:18:48.117  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:48.201  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:48.268  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:18:48.346  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:18:48.369  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x86750000 (RippleDrawable) with handle 0x86d36eb0
+12-11 19:18:51.030  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 51491855 , only wrote 50811120

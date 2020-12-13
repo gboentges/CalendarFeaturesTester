@@ -1,0 +1,756 @@
+--------- beginning of main
+12-11 19:12:45.822  7152  7152 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-11 19:12:45.824  7152  7152 D AndroidRuntime: CheckJNI is ON
+12-11 19:12:45.859  7152  7152 W art     : Unexpected CPU variant for X86 using defaults: x86
+12-11 19:12:45.863  7152  7152 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-11 19:12:45.883  7152  7152 E memtrack: Couldn't load memtrack module (No such file or directory)
+12-11 19:12:45.883  7152  7152 E android.os.Debug: failed to load memtrack module: -2
+12-11 19:12:45.884  7152  7152 I Radio-JNI: register_android_hardware_Radio DONE
+12-11 19:12:45.894  7152  7152 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+--------- beginning of system
+12-11 19:12:45.944  1653  1666 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{a5953e5 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{7b6aeba 7152 (unknown name)/2000/u-1 remote:59ff4f}: process crashing
+12-11 19:12:47.634  7152  7152 D MonkeyStub: translateCommand: wake
+12-11 19:12:47.640  7152  7152 D MonkeyStub: translateCommand: tap 978 1702
+12-11 19:12:47.661  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 38744729 , only wrote 38744640
+12-11 19:12:47.789  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:47.970  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:47.982  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:47.997  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.007  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.122  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.135  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.144  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.160  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.177  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.193  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:48.210  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:49.644  7152  7152 D MonkeyStub: translateCommand: tap 978 1513
+12-11 19:12:49.653  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:49.691  6003  6003 W Resources: Drawable android:drawable/activated_background_material has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+12-11 19:12:49.691  6003  6003 W Resources: java.lang.RuntimeException
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.content.res.Resources.getDrawable(Resources.java:746)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.calendar.event.edit.segment.BaseSuggestionAdapter.<init>(BaseSuggestionAdapter.java:83)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.BaseAnnotatedSuggestionAdapter.<init>(BaseAnnotatedSuggestionAdapter.java:54)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.TaskSuggestionAdapter.<init>(TaskSuggestionAdapter.java:23)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.TaskSuggestEditSegment.onFinishInflate(TaskSuggestEditSegment.java:103)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:867)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:821)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:518)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:426)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:377)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.calendar.editor.BaseEditSegmentFactory$LayoutInflaterFactoryMethod.createSegment(BaseEditSegmentFactory.java:227)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.calendar.editor.BaseEditSegmentFactory.createEditSegments(BaseEditSegmentFactory.java:80)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.TimelyEventEditSegmentFactory.createAndAddEditSegmentsMaybeInHeader(TimelyEventEditSegmentFactory.java:91)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.calendar.event.edit.EditDetailsFragment.ensureSegmentsCreated(EditDetailsFragment.java:781)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.calendar.event.edit.EditDetailsFragment.onActivityCreated(EditDetailsFragment.java:670)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.Fragment.performActivityCreated(Fragment.java:2362)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1014)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1171)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.BackStackRecord.run(BackStackRecord.java:816)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1578)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.FragmentManagerImpl$1.run(FragmentManager.java:483)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.os.Looper.loop(Looper.java:154)
+12-11 19:12:49.691  6003  6003 W Resources: 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+12-11 19:12:49.691  6003  6003 W Resources: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+12-11 19:12:49.691  6003  6003 W Resources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+12-11 19:12:49.755  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:49.770  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:50.637  1733  1733 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+12-11 19:12:50.663  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:12:50.671  6003  6003 I Choreographer: Skipped 56 frames!  The application may be doing too much work on its main thread.
+12-11 19:12:50.674  6003  6003 D android.support.v7.widget.GridLayout: horizontal constraints: x4-x0>=1080, x3-x1>=331, x2-x1>=126, x4-x1<=0, x1-x0<=168 are inconsistent; permanently removing: x4-x1<=0. 
+12-11 19:12:50.674  6003  6003 D android.support.v7.widget.GridLayout: vertical constraints: y1-y0>=128, y2-y1>=121, y3-y2>=0, y4-y3>=0, y2-y0<=126 are inconsistent; permanently removing: y2-y0<=126. 
+12-11 19:12:50.683  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:12:50.780  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:50.929  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:50.945  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:50.957  6003  6003 W EditDetailsFragment: updateAuxiliaryViewLayoutParams 1731 -> 1437 0 -> 0
+12-11 19:12:50.973  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.047  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.057  6003  7164 I ManagedChannelImpl: [{0}] Created with target {1}
+12-11 19:12:51.063  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.071  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:12:51.085  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.103  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.127  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.140  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.160  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.183  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.208  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.228  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.264  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.288  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.294  1719  1719 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+12-11 19:12:51.308  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:12:51.354  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.574  6003  6003 I AutoCompleteRequestMana: Showing response 0
+12-11 19:12:51.703  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:12:51.794  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.836  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:12:51.841  6003  6003 W EditDetailsFragment: updateAuxiliaryViewLayoutParams 1437 -> 662 0 -> 0
+12-11 19:12:52.869  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 39242465 , only wrote 38994480
+12-11 19:12:53.647  7152  7152 D MonkeyStub: translateCommand: type read
+12-11 19:12:53.852  6003  6003 I AutoCompleteRequestMana: Showing response 1
+12-11 19:12:55.657  7152  7152 D MonkeyStub: translateCommand: tap 307 798
+12-11 19:12:55.739  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 38994554 , only wrote 38994480
+12-11 19:12:55.908  6003  6003 W ResourceType: Attempt to retrieve bag 0x7f120189 which is invalid or in a cycle.
+12-11 19:12:55.933  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577175 ; date = ?
+12-11 19:12:55.954  1719  1719 I LatinIME: Starting input. Cursor position = 4,4
+12-11 19:12:55.985  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:12:56.082  6003  6003 I AutoCompleteRequestMana: Showing response 2
+12-11 19:12:57.664  7152  7152 D MonkeyStub: translateCommand: tap 363 549
+12-11 19:12:57.940  1719  1719 I LatinIME: Starting input. Cursor position = 10,10
+12-11 19:12:58.017  6003  6003 I AutoCompleteRequestMana: Showing response 3
+12-11 19:12:59.672  7152  7152 D MonkeyStub: translateCommand: tap 969 140
+12-11 19:13:00.011  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:13:00.018  6003  6003 I RequestTimingUtil: Request statistics (latency - TaskAssistMedianRequestDuration): 4 requests, median: 152ms, avg: 322ms, std dev: 339ms
+12-11 19:13:00.041  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:13:00.041  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:13:00.070  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:13:00.077  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:13:00.117  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:00.130  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:00.132  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:13:00.392  6048  6048 I Babel_ConcService: Unbinding ConcurrentService
+12-11 19:13:00.399  6048  6048 W Babel_ConcService: ***************************************************************************
+12-11 19:13:00.400  6048  6048 W Babel_ConcService: Stopping ConcurrentService while there are 2 tasks still pending
+12-11 19:13:00.400  6048  6048 W Babel_ConcService: ***************************************************************************
+12-11 19:13:01.677  7152  7152 D MonkeyStub: translateCommand: tap 969 140
+12-11 19:13:01.706  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:01.708  6003  6003 D android.support.v7.widget.GridLayout: horizontal constraints: x4-x0>=1080, x3-x1>=331, x2-x1>=126, x4-x1<=0, x1-x0<=168 are inconsistent; permanently removing: x4-x1<=0. 
+12-11 19:13:01.708  6003  6003 D android.support.v7.widget.GridLayout: vertical constraints: y1-y0>=128, y2-y1>=121, y3-y2>=0, y4-y3>=0, y2-y0<=126 are inconsistent; permanently removing: y2-y0<=126. 
+12-11 19:13:01.719  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.019  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.041  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.049  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.066  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.083  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.106  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.127  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.140  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.169  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.179  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:13:02.195  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:02.374  6003  6013 I art     : Background sticky concurrent mark sweep GC freed 44880(2MB) AllocSpace objects, 7(112KB) LOS objects, 10% free, 23MB/26MB, paused 6.336ms total 112.281ms
+12-11 19:13:02.389  1653  1661 I art     : Background partial concurrent mark sweep GC freed 51782(2MB) AllocSpace objects, 15(464KB) LOS objects, 22% free, 13MB/17MB, paused 1.981ms total 188.435ms
+12-11 19:13:02.414  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:02.446  1360  3128 D WVCdm   : Instantiating CDM.
+12-11 19:13:02.447  1360  4704 I WVCdm   : CdmEngine::OpenSession
+12-11 19:13:02.447  1360  4704 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:13:02.450  1360  4704 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:13:02.456  1360  4704 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:13:02.457  1360  1360 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:13:02.458  1360  1360 D WVCdm   : PrepareKeyRequest: nonce=1285527404
+12-11 19:13:02.537  1360  1386 I WVCdm   : CdmEngine::CloseSession
+12-11 19:13:02.742  2064  2077 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-11 19:13:02.742  2064  2077 W GLSUser : java.io.IOException: Invalid device key response.
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):72)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):27)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at yfy.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):5)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at cpz.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):4)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at dsw.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):3)
+12-11 19:13:02.742  2064  2077 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:565)
+12-11 19:13:02.743  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:02.789  2640  5560 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:13:02.789  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:13:02.790  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:13:02.835  2640  5560 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+12-11 19:13:02.836  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:13:02.836  2640  5560 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:13:03.307  2640  2640 I GCM     : Message from 745476177629
+12-11 19:13:03.334  2640  2640 I GCM     : Message from 745476177629
+12-11 19:13:03.395  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:03.395  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:03.629  2064  3186 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:03.629  2064  3186 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:13:03.853  1653  1653 W WindowManager: Attempted to remove non-existing token: android.os.Binder@9cbc509
+12-11 19:13:04.892  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 39870980 , only wrote 39433680
+12-11 19:13:06.693  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:06.711  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 39433787 , only wrote 39433680
+12-11 19:13:08.696  7152  7152 D MonkeyStub: translateCommand: tap 238 267
+12-11 19:13:09.802  2510  2510 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x20000000 }
+12-11 19:13:09.802  2510  2510 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+12-11 19:13:09.830  2640  7172 I IcingInternalCorpora: Received calendar change notification.
+12-11 19:13:10.846  2640  5560 I IcingInternalCorpora: EventIndexer: starting incremental update
+12-11 19:13:10.848  2640  5560 I IcingInternalCorpora: EventIndexer: 0 added, 0 removed, 0 changed, 49 unchanged, 0 errors.
+12-11 19:13:10.848  2640  5560 I IcingInternalCorpora: EventIndexer: finished after 3 ms.
+12-11 19:13:11.701  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:13.705  7152  7152 D MonkeyStub: translateCommand: tap 238 413
+12-11 19:13:14.564  1653  3965 D DnsEventListenerService: Logging 100 results for netId 101
+12-11 19:13:16.709  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:16.953  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:13:18.712  7152  7152 D MonkeyStub: translateCommand: tap 247 517
+12-11 19:13:20.803  1653  1698 D WifiNative-HAL: Failing getSupportedFeatureset because HAL isn't started
+12-11 19:13:20.804  1653  1669 E BluetoothAdapter: Bluetooth binder is null
+12-11 19:13:20.805  1653  1669 E BatteryStatsService: no controller energy info supplied
+12-11 19:13:20.809  1653  1669 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+12-11 19:13:20.809  1653  1669 E KernelUidCpuTimeReader: Failed to read uid_cputime: /proc/uid_cputime/show_uid_stat (No such file or directory)
+12-11 19:13:20.810  1653  1669 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+12-11 19:13:21.720  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:23.723  7152  7152 D MonkeyStub: translateCommand: tap 238 663
+12-11 19:13:26.578  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:13:26.578  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:13:26.948  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 41374320 , only wrote 40404960
+12-11 19:13:27.055  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:13:27.056  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:27.259  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:27.363  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:13:27.466  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:27.771  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:13:28.055  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:28.735  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:28.760  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 40405060 , only wrote 40404960
+12-11 19:13:28.895  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:28.897  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:28.898  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:30.742  7152  7152 D MonkeyStub: translateCommand: tap 238 1226
+12-11 19:13:30.764  1653  1666 I ProcessStatsService: Prepared write state in 4ms
+12-11 19:13:33.745  7152  7152 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:13:33.952  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 40901305 , only wrote 40654080
+12-11 19:13:37.660  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:13:37.662  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:13:37.791  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:13:38.467  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:38.576  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:13:38.751  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:38.779  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 40654216 , only wrote 40654080
+12-11 19:13:39.148  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:13:40.267  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:40.754  7152  7152 D MonkeyStub: translateCommand: tap 238 1226
+12-11 19:13:41.726  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:13:43.757  7152  7152 D MonkeyStub: translateCommand: tap 951 1149
+12-11 19:13:43.969  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 41150268 , only wrote 40903200
+12-11 19:13:48.762  7152  7152 D MonkeyStub: translateCommand: tap 65 132
+12-11 19:13:48.795  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 40903300 , only wrote 40903200
+12-11 19:13:50.770  7152  7152 D MonkeyStub: translateCommand: tap 238 132
+12-11 19:13:54.003  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 41401034 , only wrote 41153040
+12-11 19:13:55.779  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:13:55.815  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 41153342 , only wrote 41153040
+12-11 19:13:57.782  7152  7152 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:13:58.251  1653  2528 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:13:58.489  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:13:58.504  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:13:58.533  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:13:58.556  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +273ms
+12-11 19:13:58.695  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:13:59.174  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:00.038  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:00.992  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 41647919 , only wrote 41401440
+12-11 19:14:01.788  7152  7152 D MonkeyStub: translateCommand: type read
+12-11 19:14:03.794  7152  7152 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:14:03.800  1653  1664 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:03.823  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577243 ; date = ?
+12-11 19:14:03.844  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:14:03.860  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:03.862  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:14:03.869  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:03.869  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:03.876  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:05.825  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:14:08.809  7152  7152 D MonkeyStub: translateCommand: tap 298 271
+12-11 19:14:08.833  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 41401897 , only wrote 41401440
+12-11 19:14:08.880  1653  2528 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:10.173  6003  6003 I Choreographer: Skipped 72 frames!  The application may be doing too much work on its main thread.
+12-11 19:14:10.251  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.441  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.523  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.529  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:10.535  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.540  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s643ms
+12-11 19:14:10.572  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:10.575  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.589  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.610  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.812  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.826  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.857  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:10.868  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:11.146  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:11.235  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:11.244  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:11.818  7152  7152 D MonkeyStub: translateCommand: tap 78 392
+12-11 19:14:11.873  6003  6003 W Resources: Drawable android:drawable/activated_background_material has unresolved theme attributes! Consider using Resources.getDrawable(int, Theme) or Context.getDrawable(int).
+12-11 19:14:11.873  6003  6003 W Resources: java.lang.RuntimeException
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.content.res.Resources.getDrawable(Resources.java:746)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.calendar.event.edit.segment.BaseSuggestionAdapter.<init>(BaseSuggestionAdapter.java:83)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.BaseAnnotatedSuggestionAdapter.<init>(BaseAnnotatedSuggestionAdapter.java:54)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.TaskSuggestionAdapter.<init>(TaskSuggestionAdapter.java:23)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.segment.TaskSuggestEditSegment.onFinishInflate(TaskSuggestEditSegment.java:103)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:867)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:821)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:518)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:426)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:377)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.calendar.editor.BaseEditSegmentFactory$LayoutInflaterFactoryMethod.createSegment(BaseEditSegmentFactory.java:227)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.calendar.editor.BaseEditSegmentFactory.createEditSegments(BaseEditSegmentFactory.java:80)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.google.android.calendar.event.edit.TimelyEventEditSegmentFactory.createAndAddEditSegmentsMaybeInHeader(TimelyEventEditSegmentFactory.java:91)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.calendar.event.edit.EditDetailsFragment.ensureSegmentsCreated(EditDetailsFragment.java:781)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.calendar.event.edit.EditDetailsFragment.onActivityCreated(EditDetailsFragment.java:670)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.Fragment.performActivityCreated(Fragment.java:2362)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1014)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1171)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.BackStackRecord.run(BackStackRecord.java:816)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1578)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.FragmentManagerImpl$1.run(FragmentManager.java:483)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.os.Handler.handleCallback(Handler.java:751)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.os.Looper.loop(Looper.java:154)
+12-11 19:14:11.873  6003  6003 W Resources: 	at android.app.ActivityThread.main(ActivityThread.java:6119)
+12-11 19:14:11.873  6003  6003 W Resources: 	at java.lang.reflect.Method.invoke(Native Method)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+12-11 19:14:11.873  6003  6003 W Resources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+12-11 19:14:12.801  6003  6003 I Choreographer: Skipped 54 frames!  The application may be doing too much work on its main thread.
+12-11 19:14:12.803  6003  6003 D android.support.v7.widget.GridLayout: horizontal constraints: x4-x0>=1080, x3-x1>=331, x2-x1>=126, x4-x1<=0, x1-x0<=168 are inconsistent; permanently removing: x4-x1<=0. 
+12-11 19:14:12.803  6003  6003 D android.support.v7.widget.GridLayout: vertical constraints: y1-y0>=128, y2-y1>=121, y3-y2>=0, y4-y3>=0, y2-y0<=126 are inconsistent; permanently removing: y2-y0<=126. 
+12-11 19:14:12.910  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.027  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.039  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.054  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.085  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.099  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.111  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.126  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.148  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.173  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.180  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.190  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.197  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.210  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.217  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.235  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.496  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.529  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.547  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.555  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.570  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.580  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.591  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:13.821  7152  7152 D MonkeyStub: translateCommand: tap 278 689
+12-11 19:14:14.432  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:14.514  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:14.533  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:14.560  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:14.587  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:14.593  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:15.032  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 41994404 , only wrote 41698800
+12-11 19:14:15.828  7152  7152 D MonkeyStub: translateCommand: tap 250 852
+12-11 19:14:15.860  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:15.928  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 41698873 , only wrote 41698800
+12-11 19:14:15.930  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:15.965  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:15.973  1653  3799 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@7089524 attribute=null, token = android.os.BinderProxy@eb347ea
+12-11 19:14:15.976  6003  6003 D android.support.v7.widget.GridLayout: horizontal constraints: x4-x0>=1080, x3-x1>=331, x2-x1>=126, x4-x1<=0, x1-x0<=168 are inconsistent; permanently removing: x4-x1<=0. 
+12-11 19:14:15.976  6003  6003 D android.support.v7.widget.GridLayout: vertical constraints: y1-y0>=128, y2-y1>=121, y3-y2>=0, y4-y3>=0, y2-y0<=126 are inconsistent; permanently removing: y2-y0<=126. 
+12-11 19:14:16.996  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:14:17.833  7152  7152 D MonkeyStub: translateCommand: tap 990 137
+12-11 19:14:17.859  6003  6591 I ManagedChannelImpl: [{0}] Created with target {1}
+12-11 19:14:17.867  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:14:17.888  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:17.919  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:17.940  1311  1493 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:14:18.021  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.033  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.151  1653  1661 I art     : Background partial concurrent mark sweep GC freed 38181(1734KB) AllocSpace objects, 2(40KB) LOS objects, 22% free, 13MB/17MB, paused 3.810ms total 175.803ms
+12-11 19:14:18.172  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.179  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x86410200 (RippleDrawable) with handle 0x86d36720
+12-11 19:14:18.511  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.611  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.738  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:18.782  1360  4704 D WVCdm   : Instantiating CDM.
+12-11 19:14:18.782  1360  1386 I WVCdm   : CdmEngine::OpenSession
+12-11 19:14:18.782  1360  1386 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:14:18.783  1360  1386 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:14:18.785  1360  1386 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:14:18.786  1360  3128 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:14:18.788  1360  3128 D WVCdm   : PrepareKeyRequest: nonce=350778867
+12-11 19:14:18.894  1360  3128 I WVCdm   : CdmEngine::CloseSession
+12-11 19:14:18.937  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:18.991  2064  2079 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-11 19:14:18.991  2064  2079 W GLSUser : java.io.IOException: Invalid device key response.
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):72)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):27)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at yfy.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):5)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at cpz.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):4)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at dsw.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):3)
+12-11 19:14:18.991  2064  2079 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:565)
+12-11 19:14:18.991  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:19.652  2640  2640 I GCM     : Message from 745476177629
+12-11 19:14:19.676  2640  2640 I GCM     : Message from 745476177629
+12-11 19:14:19.717  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:19.717  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:19.832  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:19.833  2064  2079 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:19.837  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:14:19.857  1653  3966 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:19.897  1311  1758 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:14:20.136  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:20.225  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:20.283  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:20.296  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:20.319  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:20.351  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:20.378  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x8c2f7a00 (RippleDrawable) with handle 0x86d36ce0
+12-11 19:14:20.543  1653  1653 W WindowManager: Attempted to remove non-existing token: android.os.Binder@b20f3d8
+12-11 19:14:20.665  6003  6013 I art     : Background partial concurrent mark sweep GC freed 87823(3MB) AllocSpace objects, 9(392KB) LOS objects, 14% free, 23MB/27MB, paused 3.605ms total 159.606ms
+12-11 19:14:23.055  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 42381035 , only wrote 42040800
+12-11 19:14:24.850  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:14:24.878  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 42040954 , only wrote 42040800
+12-11 19:14:26.620  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:14:26.620  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:14:26.854  7152  7152 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:14:27.096  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:14:27.097  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:27.295  1653  1876 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:14:27.295  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:27.406  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:14:27.510  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:27.543  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:14:27.560  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:27.588  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:14:27.595  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +268ms
+12-11 19:14:27.609  1354  1377 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+12-11 19:14:27.685  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:27.855  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:14:28.095  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:28.103  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:28.910  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:28.911  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:28.911  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:30.069  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 42537197 , only wrote 42289920
+12-11 19:14:30.858  7152  7152 D MonkeyStub: translateCommand: type read
+12-11 19:14:32.876  7152  7152 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:14:32.903  1653  1873 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:32.933  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577272 ; date = ?
+12-11 19:14:32.959  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:14:32.968  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:14:32.972  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:32.975  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:32.975  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:35.895  7152  7152 D MonkeyStub: translateCommand: tap 467 413
+12-11 19:14:35.918  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 42290140 , only wrote 42289920
+12-11 19:14:35.965  1653  1664 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:37.307  6003  6003 I Choreographer: Skipped 76 frames!  The application may be doing too much work on its main thread.
+12-11 19:14:37.382  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.567  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.655  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.662  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s678ms
+12-11 19:14:37.665  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:37.674  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.690  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:37.702  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:14:37.703  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:14:37.705  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.720  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.754  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.781  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.799  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.826  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:14:37.920  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.928  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.957  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:37.966  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:38.205  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:38.228  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:38.242  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:38.506  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:38.587  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:14:38.900  7152  7152 D MonkeyStub: translateCommand: tap 877 1715
+12-11 19:14:39.191  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:14:39.205  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:14:39.334  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.348  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.459  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.466  1653  1661 I art     : Background partial concurrent mark sweep GC freed 28891(1433KB) AllocSpace objects, 14(444KB) LOS objects, 22% free, 14MB/18MB, paused 2.710ms total 139.227ms
+12-11 19:14:39.480  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.506  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.514  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x8c3cef00 (RippleDrawable) with handle 0x86d36a70
+12-11 19:14:39.545  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:14:39.592  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:39.593  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:39.689  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:39.941  2640  2640 I GCM     : Message from 745476177629
+12-11 19:14:39.977  2640  2640 I GCM     : Message from 745476177629
+12-11 19:14:40.042  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:40.042  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:40.221  2064  3060 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:40.221  2064  3060 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:14:40.303  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:41.177  1653  1653 W WindowManager: Attempted to remove non-existing token: android.os.Binder@3d619dc
+12-11 19:14:41.766  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:14:41.904  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:14:41.925  1653  3798 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:41.964  1311  1758 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:14:42.093  1653  1661 I art     : Background partial concurrent mark sweep GC freed 23129(1378KB) AllocSpace objects, 25(912KB) LOS objects, 22% free, 13MB/17MB, paused 1.795ms total 107.014ms
+12-11 19:14:42.247  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:42.323  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:42.405  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:42.409  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:42.423  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x8523d880 (RippleDrawable) with handle 0x86d36ee0
+12-11 19:14:45.114  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 43170575 , only wrote 42731280
+12-11 19:14:46.917  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:14:46.944  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 42731377 , only wrote 42731280
+12-11 19:14:48.921  7152  7152 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:14:49.380  1653  2529 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:14:49.581  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:14:49.590  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:49.630  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:14:49.633  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +224ms
+12-11 19:14:49.699  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:50.096  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:52.135  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 43227568 , only wrote 42980400
+12-11 19:14:52.926  7152  7152 D MonkeyStub: translateCommand: type read
+12-11 19:14:54.948  7152  7152 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:14:54.967  1653  2529 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:54.988  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577294 ; date = ?
+12-11 19:14:55.007  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:55.008  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:55.012  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:14:55.022  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:14:55.029  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:14:57.958  7152  7152 D MonkeyStub: translateCommand: tap 467 413
+12-11 19:14:57.974  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 42980608 , only wrote 42980400
+12-11 19:14:58.021  1653  2529 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:14:59.289  1653  1673 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+12-11 19:14:59.316  6003  6003 I Choreographer: Skipped 72 frames!  The application may be doing too much work on its main thread.
+12-11 19:14:59.398  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.617  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.702  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.708  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:14:59.716  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.723  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s677ms
+12-11 19:14:59.739  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.755  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.759  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:14:59.772  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.789  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.798  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.817  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.832  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.857  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.871  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.896  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:14:59.914  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:00.925  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:00.962  7152  7152 D MonkeyStub: translateCommand: tap 877 1715
+12-11 19:15:01.163  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:15:01.310  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:01.336  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:01.379  1653  1661 I art     : Background partial concurrent mark sweep GC freed 24761(1114KB) AllocSpace objects, 7(180KB) LOS objects, 22% free, 14MB/18MB, paused 2.516ms total 175.279ms
+12-11 19:15:01.424  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:01.432  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x864cff00 (RippleDrawable) with handle 0x86fb14e0
+12-11 19:15:01.456  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:01.491  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:15:01.535  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:01.538  2064  2945 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:01.721  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:02.102  2640  2640 I GCM     : Message from 745476177629
+12-11 19:15:02.154  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:02.154  2064  3059 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:02.383  2064  3186 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:02.384  2064  3186 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:02.443  2640  2640 I GCM     : Message from 745476177629
+12-11 19:15:03.138  1653  1653 W WindowManager: Attempted to remove non-existing token: android.os.Binder@95e6dcd
+12-11 19:15:03.966  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:15:03.989  1653  1664 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:15:04.004  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:15:04.254  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:04.327  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:04.387  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:04.399  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:04.405  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:04.419  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:04.676  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:07.171  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 43861197 , only wrote 43421760
+12-11 19:15:08.978  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:15:09.015  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 43421869 , only wrote 43421760
+12-11 19:15:10.982  7152  7152 D MonkeyStub: translateCommand: tap 245 769
+12-11 19:15:11.426  1653  1873 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x20030000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity} from uid 10034 on display 0
+12-11 19:15:11.593  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:15:11.601  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:11.632  1719  1719 I LatinIME: Starting input. Cursor position = 0,0
+12-11 19:15:11.655  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.SearchActivity: +198ms
+12-11 19:15:11.693  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:15:12.087  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:15:14.191  1354  1378 W audio_hw_generic: Not supplying enough data to HAL, expected position 43916639 , only wrote 43670160
+12-11 19:15:14.987  7152  7152 D MonkeyStub: translateCommand: type read
+12-11 19:15:16.993  7152  7152 D MonkeyStub: translateCommand: tap 998 1692
+12-11 19:15:17.013  1653  1663 I ActivityManager: START u0 {act=android.intent.action.SEARCH flg=0x20000000 cmp=com.google.android.calendar/com.android.calendar.SearchActivity (has extras)} from uid 10034 on display 0
+12-11 19:15:17.042  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1544577317 ; date = ?
+12-11 19:15:17.052  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@1bff388[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:15:17.076  1719  1719 W InputMethodService: Window size has been changed. This may cause jankiness of resizing window: -1 -> -2
+12-11 19:15:17.088  1719  1810 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+12-11 19:15:17.093  1719  3460 D EGL_emulation: eglMakeCurrent: 0x8f67e020: ver 3 0 (tinfo 0x9d969f20)
+12-11 19:15:17.129  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:17.129  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:21.999  7152  7152 D MonkeyStub: translateCommand: tap 409 661
+12-11 19:15:22.012  1354  1377 W audio_hw_generic: Not supplying enough data to HAL, expected position 43670469 , only wrote 43670160
+12-11 19:15:22.059  1653  3965 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:15:23.305  6003  6003 I Choreographer: Skipped 70 frames!  The application may be doing too much work on its main thread.
+12-11 19:15:23.388  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.577  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.601  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.616  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +1s542ms
+12-11 19:15:23.624  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:23.628  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.642  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.657  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.658  1733  1900 D EGL_emulation: eglMakeCurrent: 0xad0052a0: ver 3 0 (tinfo 0xad0038a0)
+12-11 19:15:23.673  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.696  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.731  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.762  6003  6013 W art     : Suspending all threads took: 5.236ms
+12-11 19:15:23.824  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.834  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.843  6003  6013 I art     : Background sticky concurrent mark sweep GC freed 37808(1482KB) AllocSpace objects, 2(128KB) LOS objects, 5% free, 26MB/27MB, paused 12.153ms total 140.180ms
+12-11 19:15:23.852  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:23.865  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:24.228  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.003  7152  7152 D MonkeyStub: translateCommand: tap 1008 104
+12-11 19:15:25.171  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.191  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.200  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.216  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.241  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.339  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.347  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:25.458  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:26.650  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: BlockingExecutor com.google.android.finsky.bo.ao@2d3d6c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 8]
+12-11 19:15:26.650  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: LightweightExecutor com.google.android.finsky.bo.ao@9823f35[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 53]
+12-11 19:15:26.803  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.005  7152  7152 D MonkeyStub: translateCommand: tap 667 127
+12-11 19:15:27.145  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: bgExecutor com.google.android.finsky.bo.ao@3b53fca[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 15]
+12-11 19:15:27.146  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: SimChangeExecutor com.google.android.finsky.bo.ao@dd7e53b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:27.337  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-xternal_referrer_status.db com.google.android.finsky.bo.ao@366c458[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:27.436  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.450  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-split_install_service com.google.android.finsky.bo.ao@6a499b1[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 7]
+12-11 19:15:27.491  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.500  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.514  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.547  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: StorageAwareDownloadServiceManagerSpaceChecker com.google.android.finsky.bo.ao@acf8e96[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:27.598  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.611  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.804  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:27.812  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x865aa600 (MenuPopupWindow$MenuDropDownListView) with handle 0x86fb1a00
+12-11 19:15:27.897  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler com.google.android.finsky.bo.ao@5d59a17[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44]
+12-11 19:15:28.140  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduler_logging_store.db com.google.android.finsky.bo.ao@5afce04[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:28.706  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:28.953  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@7b81fed[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:28.953  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-install_service com.google.android.finsky.bo.ao@16dfe22[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:28.953  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f8fc0b3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:29.010  7152  7152 D MonkeyStub: translateCommand: tap 415 991
+12-11 19:15:31.014  7152  7152 D MonkeyStub: translateCommand: tap 904 1128
+12-11 19:15:31.084  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:31.138  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:15:31.202  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:31.320  1653  1661 I art     : Background partial concurrent mark sweep GC freed 24046(1031KB) AllocSpace objects, 4(80KB) LOS objects, 22% free, 13MB/17MB, paused 2.371ms total 148.983ms
+12-11 19:15:31.511  6003  6013 I art     : Background partial concurrent mark sweep GC freed 91460(4MB) AllocSpace objects, 10(544KB) LOS objects, 14% free, 24MB/28MB, paused 2.081ms total 149.015ms
+12-11 19:15:31.614  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:15:31.651  2064  3060 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:31.685  1360  4704 D WVCdm   : Instantiating CDM.
+12-11 19:15:31.686  1360  1386 I WVCdm   : CdmEngine::OpenSession
+12-11 19:15:31.691  1360  1386 I WVCdm   : Level3 Library 4464 Sep 10 2016 21:49:53
+12-11 19:15:31.694  1360  1386 W WVCdm   : Could not load liboemcrypto.so. Falling back to L3.  dlopen failed: library "liboemcrypto.so" not found
+12-11 19:15:31.701  1360  1386 I WVCdm   : CdmEngine::QueryKeyControlInfo
+12-11 19:15:31.701  1360  3128 I WVCdm   : CdmEngine::GenerateKeyRequest
+12-11 19:15:31.704  1360  3128 D WVCdm   : PrepareKeyRequest: nonce=222271457
+12-11 19:15:31.795  1360  1386 I WVCdm   : CdmEngine::CloseSession
+12-11 19:15:31.863  2064  3060 W GLSUser : [AppCertManager] IOException while requesting key: 
+12-11 19:15:31.863  2064  3060 W GLSUser : java.io.IOException: Invalid device key response.
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):14)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):72)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at hxx.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):27)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):2)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at hxv.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):9)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at yfy.a(:com.google.android.gms@14799022@14.7.99 (040700-223214910):5)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at cpz.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):4)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at android.os.Binder.transact(Binder.java:499)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at dsw.onTransact(:com.google.android.gms@14799022@14.7.99 (040700-223214910):3)
+12-11 19:15:31.863  2064  3060 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:565)
+12-11 19:15:31.864  2064  3060 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:32.474  2640  2640 I GCM     : Message from 745476177629
+12-11 19:15:32.523  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:32.524  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:33.030  7152  7152 D MonkeyStub: translateCommand: tap 427 404
+12-11 19:15:33.100  1653  2529 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x8000 cmp=com.google.android.calendar/com.android.calendar.event.EventInfoActivity (has extras)} from uid 10034 on display 0
+12-11 19:15:33.398  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.592  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.674  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.680  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:33.688  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.706  1653  1673 I ActivityManager: Displayed com.google.android.calendar/com.android.calendar.event.EventInfoActivity: +589ms
+12-11 19:15:33.727  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.749  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.772  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.787  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.801  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.820  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.831  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.846  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.860  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.875  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.886  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.916  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:33.928  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:35.009  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.037  7152  7152 D MonkeyStub: translateCommand: tap 999 138
+12-11 19:15:36.137  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.154  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.163  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.171  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.180  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.304  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.320  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:36.424  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:37.736  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: VerifyAppsDataStore com.google.android.finsky.bo.ao@a5dc670[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:15:37.737  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-verify_apps.db com.google.android.finsky.bo.ao@703cde9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:15:37.771  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:37.866  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-notification_cache com.google.android.finsky.bo.ao@91da6e[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2]
+12-11 19:15:38.040  7152  7152 D MonkeyStub: translateCommand: tap 696 123
+12-11 19:15:38.288  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:38.326  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:38.336  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:38.343  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:38.545  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-auto_update.db com.google.android.finsky.bo.ao@dbbb50f[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:38.608  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:38.620  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x864d0600 (MenuPopupWindow$MenuDropDownListView) with handle 0x86d366e0
+12-11 19:15:38.625  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-frosting.db com.google.android.finsky.bo.ao@2b0d99c[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:15:39.206  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-user_languages_store com.google.android.finsky.bo.ao@2425fa5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+12-11 19:15:39.739  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:40.043  7152  7152 D MonkeyStub: translateCommand: tap 911 984
+12-11 19:15:40.083  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:40.130  1311  1897 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:15:40.205  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:40.350  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: Db-scheduled_acquisitions.db com.google.android.finsky.bo.ao@e052f7a[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:40.375  1653  1661 I art     : Background partial concurrent mark sweep GC freed 27072(1609KB) AllocSpace objects, 27(952KB) LOS objects, 22% free, 14MB/18MB, paused 1.636ms total 201.898ms
+12-11 19:15:40.401  2064  2064 W ChimeraUtils: Non Chimera context
+12-11 19:15:40.451  2064  2362 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:40.451  2064  2362 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:40.870  2640  2640 I GCM     : Message from 745476177629
+12-11 19:15:40.914  2640  2640 I GCM     : Message from 745476177629
+12-11 19:15:41.002  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:41.002  2064  2077 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:41.106  2064  3050 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:41.106  2064  3050 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+12-11 19:15:41.806  6321  6338 I Finsky  : [282] com.google.android.finsky.bo.an.run(6): Stats for Executor: InstallBackgroundThread com.google.android.finsky.bo.ao@f08932b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+12-11 19:15:42.046  7152  7152 D MonkeyStub: translateCommand: tap 88 132
+12-11 19:15:42.056  1653  3799 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x4000000 cmp=com.google.android.calendar/com.android.calendar.AllInOneCalendarActivity (has extras)} from uid 10034 on display 0
+12-11 19:15:42.071  1311  1316 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2691072
+12-11 19:15:42.197  1653  1661 I art     : Background partial concurrent mark sweep GC freed 20689(1264KB) AllocSpace objects, 25(912KB) LOS objects, 22% free, 13MB/17MB, paused 2.518ms total 104.186ms
+12-11 19:15:42.292  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:42.338  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:42.387  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:42.403  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:42.438  6003  6003 W IInputConnectionWrapper: finishComposingText on inactive InputConnection
+12-11 19:15:42.455  6003  6262 D EGL_emulation: eglMakeCurrent: 0xad005900: ver 3 0 (tinfo 0xad0039d0)
+12-11 19:15:42.486  6003  6262 D OpenGLRenderer: endAllActiveAnimators on 0x864f1e80 (RippleDrawable) with handle 0x86d361e0
